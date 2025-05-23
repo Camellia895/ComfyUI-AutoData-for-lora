@@ -1,0 +1,17 @@
+{
+    "play_feedback_sound": false,
+    "sound_file_path": "resources/feedback.wav",
+    "play_flash_feedback": true,
+    "flash_color": "rgba(100, 200, 100, 100)",
+    "flash_duration_ms": 70,
+    "mark_next_delay_ms": 150,
+    "num_shortcuts_to_display": 8,
+    "initial_window_geometry": [
+        278,
+        73,
+        1265,
+        886
+    ],
+    "image_extensions": "png,jpg,jpeg,webp,bmp",
+    "last_opened_folder": "D:/ComfyUI/output/2025-05-18"
+}
