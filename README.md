@@ -54,7 +54,7 @@
 * **一转4空信号传递:**同上
 * （额外的，但不是节点）当中有个自动读取节点的![image](https://github.com/user-attachments/assets/aa8dda99-74c5-4bd4-936d-4c0f32ee3623)文件，只要节点完成注册，就能自动读取节点。利好节点开发。
 * （额外的，但不是节点）在弃用部分，有个ai代码黏贴器，自动生成黏贴代码的py文件。
-* （额外的，但不是节点）词典我放在resources文件夹中，请把词典移动到easy——use节点的的wildcards下。我比如我的，就放在G:\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-easy-use\wildcards下。
+* （额外的，但不是节点）词典我放在resources文件夹中，请把词典移动到easy——use节点的的wildcards下。比如我的，就放在G:\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-easy-use\wildcards下。
 
 
 
