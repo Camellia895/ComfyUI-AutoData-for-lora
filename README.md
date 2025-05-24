@@ -4,12 +4,21 @@
 
 这是一个为 ComfyUI 设计的自定义节点集合，旨在辅助 Lora 训练数据的自动化生成与管理。本仓库的核心功能是提供一个**通过 Excel 表格驱动的 For 循环工作流**，用于批量生成图片作为 Lora 训练集，并自动生成对应的原生 Tagger 的txt文本文件用于打标。（后者功能有分类，且可以禁用，单纯roll图也没有问题）
 
-## 快速开始（不知道该做什么的话，脑子不够用的话）:
+## 快速开始（不知道该做什么的话，脑子不够用的话，太长不看的话）:
 
-将excel 创建好。
-填入excel表格位置。
-resources文件夹中的词典放在\custom_nodes\comfyui-easy-use\wildcards中。
-点击开始运行。
+![12%6_1](https://github.com/user-attachments/assets/2bdcf993-c292-4b08-8392-35f2bce56d1f)踩踩你的
+*(ningen mame:1.1), (ninjin nouka:1.1), (quasarcake:1.1), (ciloranko:1.15),konya_karasue,z3zz4,
+*1girl, no shoes, nahida (genshin impact), feet, pantyhose, white pantyhose, green eyes, solo, pointy ears, white hair, soles, side ponytail, long hair, toes, open mouth, looking at viewer, foot focus, hair ornament, dress, symbol-shaped pupils, sitting, legs, bangs, cross-shaped pupils, blush, hair between eyes, bare shoulders, multicolored hair, sleeveless, foreshortening, white dress, see-through, thighs, sleeveless dress, sweat, panties under pantyhose, underwear, gradient hair, :o, thighband pantyhose, green hair, blurry, wet, fang, full body, ass, knees up, leaf hair ornament
+
+1.将上方的图片拖入comfyui
+
+2.将excel 创建好
+
+3.填入excel表格的文件位置
+
+4.resources文件夹中的词典放在\custom_nodes\comfyui-easy-use\wildcards中。
+
+5.点击执行
 
 ---
 
@@ -80,8 +89,8 @@ resources文件夹中的词典放在\custom_nodes\comfyui-easy-use\wildcards中�
 
 ---
 
-## 讲解 为数据集服务的工作流 (AutoData-for-lora Workflow) 当然也可以用于单纯的roll图 
-
+## 讲解部分 
+## 为数据集服务的工作流 (AutoData-for-lora Workflow) 当然也可以用于单纯的roll图 
 本仓库的核心价值在于提供一个**为数据集服务的 ComfyUI 工作流**，该工作流演示了如何结合 Excel 表格数据和上述节点，自动化生成 Lora 训练图片并自动生成对应的原生 Tagger 文本文件（不需要的话可以关掉）。（下方有个功能是通过图片读取tagger，需要的话可以打开）
 输入excel位置。我只是将文本框一分为三了，你可以用一个文本框替代，这没有问题。**对了，记得在目标位置创建一个excel文件**
 ![image](https://github.com/user-attachments/assets/7c3fd999-2155-4c91-b63e-810e2ad1cae5)
