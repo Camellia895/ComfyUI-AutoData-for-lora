@@ -10,7 +10,7 @@
 *(ningen mame:1.1), (ninjin nouka:1.1), (quasarcake:1.1), (ciloranko:1.15),konya_karasue,z3zz4,
 *1girl, no shoes, nahida (genshin impact), feet, pantyhose, white pantyhose, green eyes, solo, pointy ears, white hair, soles, side ponytail, long hair, toes, open mouth, looking at viewer, foot focus, hair ornament, dress, symbol-shaped pupils, sitting, legs, bangs, cross-shaped pupils, blush, hair between eyes, bare shoulders, multicolored hair, sleeveless, foreshortening, white dress, see-through, thighs, sleeveless dress, sweat, panties under pantyhose, underwear, gradient hair, :o, thighband pantyhose, green hair, blurry, wet, fang, full body, ass, knees up, leaf hair ornament
 
-1.将上方的图片拖入comfyui
+1.将上方的图片拖入comfyui（或是在目录workflows下找到工作流）
 
 2.将excel 创建好
 
@@ -22,7 +22,7 @@
 
 ---
 
-## ✨ 节点介绍
+## 节点介绍
 
 * **按序号自动加载标记图像(`Sequential File Output`):** 根据多种条件（修改时间、文件名、文件后缀、包含/排除标识）按顺序输出特定文件路径，适用于需要按顺序处理文件（如名称顺序）或自动筛选 Lora 训练素材的场景。
 * **自动清理1x1png (`clean_1x1_png`):** 自动扫描并删除指定文件夹中所有尺寸为 1x1 像素的 PNG 图片。这些图片是工作流不可避免而产生的占位符，通过清理可保持数据目录整洁。默认模式为试运行也就是dry_run,如果试运行成功在把试运行关掉。具体可以看控制台状况。
@@ -31,7 +31,7 @@
 * （额外的，但不是节点）当中有个自动读取节点的![image](https://github.com/user-attachments/assets/aa8dda99-74c5-4bd4-936d-4c0f32ee3623)文件，只要节点完成注册，就能自动读取节点。利好节点开发。
 * （额外的，但不是节点）在弃用部分，有个ai代码黏贴器，自动生成黏贴代码的py文件。
 * （额外的，但不是节点）词典我放在resources文件夹中，请把词典移动到easy——use节点的的wildcards下。我比如我的，就放在G:\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-easy-use\wildcards下。
-## 🚀 安装
+## 安装
 
 1. **打开 ComfyUI 目录：** 导航到你的 ComfyUI 安装目录。
 
@@ -51,7 +51,7 @@
 
 4. **重启 ComfyUI：** 关闭并重新启动 ComfyUI，新的节点应该出现在你的节点列表中。
 
-## 💡 节点详情
+## 节点详情
 
 ### 1. 按序号自动加载标记图像
 
