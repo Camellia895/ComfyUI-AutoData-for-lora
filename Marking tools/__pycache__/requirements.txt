@@ -1,0 +1,9 @@
+PyQt5
+PyQt5.QtCore
+PyQt5.QtGui
+PyQt5.QtWidgets
+config_manager
+image_viewer
+main_window
+natsort
+settings_dialog
