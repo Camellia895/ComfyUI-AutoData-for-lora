@@ -19,7 +19,7 @@ resources文件夹中的词典放在\custom_nodes\comfyui-easy-use\wildcards中�
 * **自动清理1x1png (`clean_1x1_png`):** 自动扫描并删除指定文件夹中所有尺寸为 1x1 像素的 PNG 图片。这些图片是工作流不可避免而产生的占位符，通过清理可保持数据目录整洁。默认模式为试运行也就是dry_run,如果试运行成功在把试运行关掉。具体可以看控制台状况。
 * **4转一空信号传递:** 为 ComfyUI 中的 For 循环提供简洁的引导机制，减少连线复杂性，使得基于 Excel 数据或列表的批量生成工作流更易于构建。（不论输入什么都会输出字符串格式的0，没有米奇妙妙功能）
 * **一转4空信号传递:**同上
-* （额外的，但不是节点）当中有个自动读取节点的![image-20250524075928905](C:\Users\哦哦骑士\AppData\Roaming\Typora\typora-user-images\image-20250524075928905.png)文件，只要节点完成注册，就能自动读取节点。利好节点开发。
+* （额外的，但不是节点）当中有个自动读取节点的![image](https://github.com/user-attachments/assets/aa8dda99-74c5-4bd4-936d-4c0f32ee3623)文件，只要节点完成注册，就能自动读取节点。利好节点开发。
 * （额外的，但不是节点）在弃用部分，有个ai代码黏贴器，自动生成黏贴代码的py文件。
 * （额外的，但不是节点）词典我放在resources文件夹中，请把词典移动到easy——use节点的的wildcards下。我比如我的，就放在G:\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-easy-use\wildcards下。
 ## 🚀 安装
