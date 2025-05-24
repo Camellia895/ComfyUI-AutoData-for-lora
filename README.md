@@ -80,7 +80,7 @@ resources文件夹中的词典放在\custom_nodes\comfyui-easy-use\wildcards中�
 
 ---
 
-##讲解 为数据集服务的工作流 (AutoData-for-lora Workflow) 当然也可以用于单纯的roll图 
+## 讲解 为数据集服务的工作流 (AutoData-for-lora Workflow) 当然也可以用于单纯的roll图 
 
 本仓库的核心价值在于提供一个**为数据集服务的 ComfyUI 工作流**，该工作流演示了如何结合 Excel 表格数据和上述节点，自动化生成 Lora 训练图片并自动生成对应的原生 Tagger 文本文件（不需要的话可以关掉）。（下方有个功能是通过图片读取tagger，需要的话可以打开）
 输入excel位置。我只是将文本框一分为三了，你可以用一个文本框替代，这没有问题。**对了，记得在目标位置创建一个excel文件**
