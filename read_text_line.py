@@ -4,7 +4,7 @@ import re
 # 注意：CATEGORY 变量通常由你的 __init__.py 负责统一设置，
 # 但为了每个节点文件的完整性，这里也可以定义。
 # 最终的类别名取决于你的 __init__.py 如何聚合这些信息。
-CATEGORY = "EasyUse/文本操作" 
+CATEGORY = "自动数据" 
 
 class ReadTextLineByIndex:
     """
