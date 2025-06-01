@@ -2,7 +2,7 @@
 
 **中文名称：** [自动数据] (其实应该叫自动数据集) 
 
-这是一个为 ComfyUI 设计的自定义节点集合（只有三个节点），本仓库的核心功能是提供一个**通过 Excel 表格驱动的 For 循环工作流**，用于批量生成图片作为 Lora 训练集，并自动生成对应的原生 Tagger 的txt文本文件用于打标。（后者功能有分类，且可以禁用，单纯roll图也没有问题）
+这是一个为 ComfyUI 设计的自定义节点集合（只有三个节点，6.1又加了些节点是关于词典操作的节点），本仓库的核心功能是提供一个**通过 Excel 表格驱动的 For 循环工作流**，用于批量生成图片作为 Lora 训练集，并自动生成对应的原生 Tagger 的txt文本文件用于打标。（后者功能有分类，且可以禁用，单纯roll图也没有问题）
 对了，它最大的一个功能就是断点。允许接上先前暂停执行的部分（因为是用excel存储的数据）。
 
 未来计划：
@@ -123,9 +123,18 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 ![image](https://github.com/user-attachments/assets/009f4adc-7041-4f09-ac62-f204c59e6822)
 用图像从excel中获得tagger。你可以配合我的另一个库里的软件食用https://github.com/Camellia895/Auto-Date-Marking-tools，用于给图像名添加标识符。
 ![image](https://github.com/user-attachments/assets/c7c2067c-7051-45d4-91e6-302431e20cf7)
-
 然后你会的得到一个类似这样的excel表格（我做了中断，如果你点击继续运行，它就好从缺失位置继续生成图片）
 ![image](https://github.com/user-attachments/assets/d5ae9a1e-84d3-4b03-b9bf-0f43f01654d7)
+
+## 新
+让tagger写入到词典中，不重复，并去掉重复的逗号，去掉非法的换行符号。你可以右键点击播放声音节点，在菜单中选择执行节点。这样就就能只执行框中的节点了。
+![image](https://github.com/user-attachments/assets/22625a95-8c5f-45db-8183-5014f0082225)
+按顺序读取词典行，然后把词典写入的excel中。你可以右键点击播放声音节点，在菜单中选择执行节点。这样就就能只执行框中的节点了。
+![image](https://github.com/user-attachments/assets/034d85e4-846d-4dfc-9939-b1fcb7d7d1e1)
+两者直接以切换节点连接。选择2的时候不执行上方的节点。
+![image](https://github.com/user-attachments/assets/31a15adc-ae56-4870-89b6-ea920a916f65)
+
+
 
 ---
 
