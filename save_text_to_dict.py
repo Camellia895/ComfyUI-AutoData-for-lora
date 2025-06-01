@@ -2,7 +2,7 @@ import os
 import re
 
 # 定义节点类别，我将它放在 "EasyUse/文本操作" 类别下
-CATEGORY = "EasyUse/文本操作"
+CATEGORY = "自动数据"
 
 class SaveTextToDictionaryAuto:
     """
