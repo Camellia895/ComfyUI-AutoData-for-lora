@@ -15,7 +15,8 @@
 
 ## 快速开始（不知道该做什么的话，脑子不够用的话，太长不看的话）:
 
-![12%6_1](https://github.com/user-attachments/assets/2bdcf993-c292-4b08-8392-35f2bce56d1f)踩踩你的
+![更新_00001_](https://github.com/user-attachments/assets/dc2b5e3e-c2f7-477d-83f8-20b68ebae665)
+踩踩你的
 *(ningen mame:1.1), (ninjin nouka:1.1), (quasarcake:1.1), (ciloranko:1.15),konya_karasue,z3zz4,
 *1girl, no shoes, nahida (genshin impact), feet, pantyhose, white pantyhose, green eyes, solo, pointy ears, white hair, soles, side ponytail, long hair, toes, open mouth, looking at viewer, foot focus, hair ornament, dress, symbol-shaped pupils, sitting, legs, bangs, cross-shaped pupils, blush, hair between eyes, bare shoulders, multicolored hair, sleeveless, foreshortening, white dress, see-through, thighs, sleeveless dress, sweat, panties under pantyhose, underwear, gradient hair, :o, thighband pantyhose, green hair, blurry, wet, fang, full body, ass, knees up, leaf hair ornament
 
