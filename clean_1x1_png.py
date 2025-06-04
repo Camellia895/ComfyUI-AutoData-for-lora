@@ -19,11 +19,12 @@ class ScanAndDelete1x1PNG:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "trigger_signal": ("*", {"forceInput": True},), # 用于流程控制的信号
+                "any": ("IMAGE,MASK,LATENT,MODEL,CLIP,VAE,CONDITIONING,STRING,INT,FLOAT", {"default": True},), # 用于流程控制的信号
                 "folder_path": ("STRING", {"default": ""},),
                 "recursive_scan": ("BOOLEAN", {"default": True},),
                 "dry_run": ("BOOLEAN", {"default": True},),
             },
+
         }
 
     # 汉化输出名称
@@ -33,7 +34,7 @@ class ScanAndDelete1x1PNG:
     CATEGORY = "自动数据" # 节点在ComfyUI UI中的分类
     OUTPUT_NODE = False
 
-    def execute(self, trigger_signal, folder_path, recursive_scan, dry_run):
+    def execute(self, any, folder_path, recursive_scan, dry_run):
         # 核心处理逻辑将在此被调用
         print(f"\n[ComfyUI节点] 启动1x1 PNG清理操作...")
         print(f"[ComfyUI节点] 目标文件夹: {folder_path}")
