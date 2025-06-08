@@ -70,6 +70,7 @@
 * **自动清理1x1png :** 自动扫描并删除指定文件夹中所有尺寸为 1x1 像素的 PNG 图片。这些图片是工作流不可避免而产生的占位符，通过清理可保持数据目录整洁。默认模式为试运行也就是dry_run,如果试运行成功在把试运行关掉。具体可以看控制台状况。（这个节点可以单独拖动到文件夹中作为批处理脚本使用。）
 * **4转一空信号传递:** 为 ComfyUI 中的 For 循环提供简洁的引导机制，减少连线复杂性，使得基于 Excel 数据或列表的批量生成工作流更易于构建。（不论输入什么都会输出字符串格式的0，没有米奇妙妙功能）
 * **一转4空信号传递:**同上
+* 
 * （额外的，但不是节点）当中有个自动读取节点的![image](https://github.com/user-attachments/assets/aa8dda99-74c5-4bd4-936d-4c0f32ee3623)文件，只要节点完成注册，就能自动读取节点。利好节点开发。
 * （额外的，但不是节点）词典我放在resources文件夹中，请把词典移动到easy——use节点的的wildcards下。比如我的，就放在G:\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-easy-use\wildcards下。
 
@@ -139,6 +140,8 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 ![image](https://github.com/user-attachments/assets/034d85e4-846d-4dfc-9939-b1fcb7d7d1e1)
 两者直接以切换节点连接。选择2的时候不执行上方的节点。
 ![image](https://github.com/user-attachments/assets/31a15adc-ae56-4870-89b6-ea920a916f65)
+##新
+图像分练工作流
 
 
 
