@@ -1,8 +1,8 @@
 {
-  "id": "41d4ae19-d6e3-4d85-90a7-d1063c89c853",
+  "id": "cc177f99-e67f-4f51-9566-97c844cefc11",
   "revision": 0,
-  "last_node_id": 434,
-  "last_link_id": 4156,
+  "last_node_id": 448,
+  "last_link_id": 4187,
   "nodes": [
     {
       "id": 19,
@@ -16,7 +16,7 @@
         142
       ],
       "flags": {},
-      "order": 93,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -81,7 +81,7 @@
         420
       ],
       "flags": {},
-      "order": 173,
+      "order": 174,
       "mode": 0,
       "inputs": [
         {
@@ -217,7 +217,7 @@
         60
       ],
       "flags": {},
-      "order": 104,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -258,7 +258,7 @@
         128
       ],
       "flags": {},
-      "order": 105,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -320,7 +320,7 @@
         128
       ],
       "flags": {},
-      "order": 122,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
@@ -383,7 +383,7 @@
         60
       ],
       "flags": {},
-      "order": 138,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -424,7 +424,7 @@
         122
       ],
       "flags": {},
-      "order": 50,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -479,7 +479,7 @@
         102
       ],
       "flags": {},
-      "order": 44,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -573,7 +573,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 99,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -615,7 +615,7 @@
         474.00006103515625
       ],
       "flags": {},
-      "order": 115,
+      "order": 119,
       "mode": 0,
       "inputs": [
         {
@@ -689,7 +689,7 @@
         106
       ],
       "flags": {},
-      "order": 62,
+      "order": 57,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -728,7 +728,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 110,
+      "order": 112,
       "mode": 0,
       "inputs": [
         {
@@ -779,7 +779,7 @@
         82
       ],
       "flags": {},
-      "order": 97,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -860,7 +860,7 @@
         78
       ],
       "flags": {},
-      "order": 73,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -916,7 +916,7 @@
         88
       ],
       "flags": {},
-      "order": 94,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -959,7 +959,7 @@
         106
       ],
       "flags": {},
-      "order": 189,
+      "order": 192,
       "mode": 0,
       "inputs": [
         {
@@ -1001,7 +1001,7 @@
         166
       ],
       "flags": {},
-      "order": 184,
+      "order": 187,
       "mode": 0,
       "inputs": [
         {
@@ -1102,7 +1102,7 @@
         130
       ],
       "flags": {},
-      "order": 124,
+      "order": 127,
       "mode": 0,
       "inputs": [
         {
@@ -1170,7 +1170,7 @@
         106
       ],
       "flags": {},
-      "order": 141,
+      "order": 139,
       "mode": 0,
       "inputs": [
         {
@@ -1217,7 +1217,7 @@
         106
       ],
       "flags": {},
-      "order": 86,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -1256,7 +1256,7 @@
         88
       ],
       "flags": {},
-      "order": 69,
+      "order": 64,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1292,7 +1292,7 @@
         88
       ],
       "flags": {},
-      "order": 45,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1327,7 +1327,7 @@
         106
       ],
       "flags": {},
-      "order": 111,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
@@ -1366,7 +1366,7 @@
         130
       ],
       "flags": {},
-      "order": 160,
+      "order": 152,
       "mode": 0,
       "inputs": [
         {
@@ -1428,7 +1428,7 @@
         198
       ],
       "flags": {},
-      "order": 166,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
@@ -1483,7 +1483,7 @@
         228
       ],
       "flags": {},
-      "order": 137,
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -1543,7 +1543,7 @@
         130
       ],
       "flags": {},
-      "order": 84,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -1612,7 +1612,7 @@
         90
       ],
       "flags": {},
-      "order": 39,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1648,7 +1648,7 @@
         106
       ],
       "flags": {},
-      "order": 103,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -1695,7 +1695,7 @@
         184
       ],
       "flags": {},
-      "order": 170,
+      "order": 171,
       "mode": 0,
       "inputs": [
         {
@@ -1773,7 +1773,7 @@
         60
       ],
       "flags": {},
-      "order": 159,
+      "order": 151,
       "mode": 0,
       "inputs": [
         {
@@ -1848,7 +1848,7 @@
         128
       ],
       "flags": {},
-      "order": 106,
+      "order": 109,
       "mode": 0,
       "inputs": [
         {
@@ -2040,7 +2040,7 @@
         128
       ],
       "flags": {},
-      "order": 119,
+      "order": 122,
       "mode": 0,
       "inputs": [
         {
@@ -2102,7 +2102,7 @@
         142
       ],
       "flags": {},
-      "order": 157,
+      "order": 149,
       "mode": 0,
       "inputs": [
         {
@@ -2214,7 +2214,7 @@
         106
       ],
       "flags": {},
-      "order": 95,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -2261,7 +2261,7 @@
         128
       ],
       "flags": {},
-      "order": 114,
+      "order": 118,
       "mode": 0,
       "inputs": [
         {
@@ -2323,7 +2323,7 @@
         130
       ],
       "flags": {},
-      "order": 74,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -2393,7 +2393,7 @@
         184
       ],
       "flags": {},
-      "order": 163,
+      "order": 155,
       "mode": 0,
       "inputs": [
         {
@@ -2462,7 +2462,7 @@
         198
       ],
       "flags": {},
-      "order": 151,
+      "order": 145,
       "mode": 0,
       "inputs": [
         {
@@ -2585,7 +2585,7 @@
         142
       ],
       "flags": {},
-      "order": 171,
+      "order": 172,
       "mode": 0,
       "inputs": [
         {
@@ -2650,7 +2650,7 @@
         60
       ],
       "flags": {},
-      "order": 120,
+      "order": 123,
       "mode": 0,
       "inputs": [
         {
@@ -2730,7 +2730,7 @@
         158
       ],
       "flags": {},
-      "order": 85,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -2833,7 +2833,7 @@
         158
       ],
       "flags": {},
-      "order": 107,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -2935,7 +2935,7 @@
         206
       ],
       "flags": {},
-      "order": 139,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -3015,7 +3015,7 @@
         128
       ],
       "flags": {},
-      "order": 87,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -3118,7 +3118,7 @@
         128
       ],
       "flags": {},
-      "order": 123,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
@@ -3181,7 +3181,7 @@
         200
       ],
       "flags": {},
-      "order": 178,
+      "order": 181,
       "mode": 0,
       "inputs": [
         {
@@ -3258,7 +3258,7 @@
         540
       ],
       "flags": {},
-      "order": 179,
+      "order": 182,
       "mode": 0,
       "inputs": [
         {
@@ -3323,7 +3323,7 @@
         58
       ],
       "flags": {},
-      "order": 82,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -3419,7 +3419,7 @@
         160
       ],
       "flags": {},
-      "order": 101,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -3481,7 +3481,7 @@
         58
       ],
       "flags": {},
-      "order": 117,
+      "order": 121,
       "mode": 0,
       "inputs": [
         {
@@ -3610,7 +3610,7 @@
         58
       ],
       "flags": {},
-      "order": 72,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -3717,7 +3717,7 @@
         142
       ],
       "flags": {},
-      "order": 88,
+      "order": 91,
       "mode": 4,
       "inputs": [
         {
@@ -3783,7 +3783,7 @@
         120
       ],
       "flags": {},
-      "order": 56,
+      "order": 52,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -3818,7 +3818,7 @@
         150
       ],
       "flags": {},
-      "order": 192,
+      "order": 195,
       "mode": 4,
       "inputs": [
         {
@@ -3886,15 +3886,15 @@
       "id": 186,
       "type": "Note",
       "pos": [
-        6370,
-        -1830
+        6400,
+        -1720
       ],
       "size": [
         210,
         88
       ],
       "flags": {},
-      "order": 70,
+      "order": 67,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3919,7 +3919,7 @@
         88
       ],
       "flags": {},
-      "order": 71,
+      "order": 65,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3990,7 +3990,7 @@
         142
       ],
       "flags": {},
-      "order": 92,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -4056,7 +4056,7 @@
         200
       ],
       "flags": {},
-      "order": 108,
+      "order": 111,
       "mode": 4,
       "inputs": [
         {
@@ -4118,7 +4118,7 @@
         442
       ],
       "flags": {},
-      "order": 63,
+      "order": 58,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4151,7 +4151,7 @@
         430
       ],
       "flags": {},
-      "order": 60,
+      "order": 55,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4176,7 +4176,7 @@
         26
       ],
       "flags": {},
-      "order": 185,
+      "order": 188,
       "mode": 0,
       "inputs": [
         {
@@ -4215,7 +4215,7 @@
         60
       ],
       "flags": {},
-      "order": 113,
+      "order": 115,
       "mode": 0,
       "inputs": [
         {
@@ -4252,7 +4252,7 @@
         60
       ],
       "flags": {},
-      "order": 35,
+      "order": 68,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4260,7 +4260,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            3865
+            4157
           ]
         }
       ],
@@ -4283,14 +4283,14 @@
         340
       ],
       "flags": {},
-      "order": 142,
+      "order": 159,
       "mode": 4,
       "inputs": [
         {
           "label": "图像",
           "name": "images",
           "type": "IMAGE",
-          "link": 1477
+          "link": 4161
         }
       ],
       "outputs": [],
@@ -4314,7 +4314,7 @@
         198
       ],
       "flags": {},
-      "order": 186,
+      "order": 189,
       "mode": 4,
       "inputs": [
         {
@@ -4377,7 +4377,7 @@
         170
       ],
       "flags": {},
-      "order": 180,
+      "order": 183,
       "mode": 0,
       "inputs": [
         {
@@ -4466,7 +4466,7 @@
         76.00006103515625
       ],
       "flags": {},
-      "order": 191,
+      "order": 194,
       "mode": 4,
       "inputs": [
         {
@@ -4504,7 +4504,7 @@
         76
       ],
       "flags": {},
-      "order": 112,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -4544,7 +4544,7 @@
         118
       ],
       "flags": {},
-      "order": 109,
+      "order": 130,
       "mode": 4,
       "inputs": [
         {
@@ -4560,7 +4560,7 @@
           "widget": {
             "name": "total"
           },
-          "link": 1503
+          "link": 4185
         },
         {
           "name": "initial_value2",
@@ -4583,7 +4583,7 @@
           "name": "index",
           "type": "INT",
           "links": [
-            3863
+            4187
           ]
         },
         {
@@ -4624,7 +4624,7 @@
         146
       ],
       "flags": {},
-      "order": 187,
+      "order": 200,
       "mode": 4,
       "inputs": [
         {
@@ -4704,7 +4704,7 @@
         82
       ],
       "flags": {},
-      "order": 181,
+      "order": 184,
       "mode": 4,
       "inputs": [
         {
@@ -4747,7 +4747,7 @@
         130
       ],
       "flags": {},
-      "order": 161,
+      "order": 175,
       "mode": 4,
       "inputs": [
         {
@@ -4806,7 +4806,7 @@
         102
       ],
       "flags": {},
-      "order": 144,
+      "order": 161,
       "mode": 4,
       "inputs": [
         {
@@ -4816,7 +4816,7 @@
           "widget": {
             "name": "input_string"
           },
-          "link": 1508
+          "link": 4163
         }
       ],
       "outputs": [
@@ -4858,7 +4858,7 @@
         150
       ],
       "flags": {},
-      "order": 174,
+      "order": 190,
       "mode": 4,
       "inputs": [
         {
@@ -4890,7 +4890,7 @@
           "widget": {
             "name": "file_name"
           },
-          "link": 3108
+          "link": 4165
         }
       ],
       "outputs": [
@@ -4923,82 +4923,6 @@
       ]
     },
     {
-      "id": 237,
-      "type": "GetMarkedImageByIndex_AutoData_V2_CN",
-      "pos": [
-        6060,
-        2410
-      ],
-      "size": [
-        358.080078125,
-        262
-      ],
-      "flags": {},
-      "order": 125,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "序号",
-          "name": "序号",
-          "type": "INT",
-          "widget": {
-            "name": "序号"
-          },
-          "link": 3863
-        }
-      ],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": [
-            1477
-          ]
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": [
-            1478,
-            1508,
-            2102,
-            3108
-          ]
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": [
-            2101
-          ]
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": [
-            2100
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V2_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        "！",
-        false,
-        "",
-        0,
-        "文件名 (升序 A-Z, 0-9)",
-        "png,jpg,jpeg,webp"
-      ]
-    },
-    {
       "id": 239,
       "type": "PlaySound|pysssss",
       "pos": [
@@ -5010,7 +4934,7 @@
         106
       ],
       "flags": {},
-      "order": 193,
+      "order": 203,
       "mode": 4,
       "inputs": [
         {
@@ -5052,13 +4976,13 @@
         76
       ],
       "flags": {},
-      "order": 143,
+      "order": 160,
       "mode": 4,
       "inputs": [
         {
           "name": "text",
           "type": "STRING",
-          "link": 1478
+          "link": 4162
         }
       ],
       "outputs": [
@@ -5081,84 +5005,6 @@
       "widgets_values": []
     },
     {
-      "id": 241,
-      "type": "GetMarkedImageByIndex_AutoData_V2_CN",
-      "pos": [
-        5390,
-        2380
-      ],
-      "size": [
-        358.080078125,
-        262
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 89,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "文件夹路径",
-          "name": "文件夹路径",
-          "type": "STRING",
-          "widget": {
-            "name": "文件夹路径"
-          },
-          "link": 3865
-        },
-        {
-          "label": "搜索标记",
-          "name": "搜索标记",
-          "type": "STRING",
-          "widget": {
-            "name": "搜索标记"
-          },
-          "link": 3874
-        }
-      ],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": []
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": []
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": [
-            1503
-          ]
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V2_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        "",
-        false,
-        "",
-        0,
-        "文件名 (升序 A-Z, 0-9)",
-        "png,jpg,jpeg,webp"
-      ]
-    },
-    {
       "id": 246,
       "type": "Prompts Everywhere",
       "pos": [
@@ -5170,7 +5016,7 @@
         46
       ],
       "flags": {},
-      "order": 126,
+      "order": 128,
       "mode": 0,
       "inputs": [
         {
@@ -5213,7 +5059,7 @@
         26
       ],
       "flags": {},
-      "order": 76,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -5295,7 +5141,7 @@
         76
       ],
       "flags": {},
-      "order": 150,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
@@ -5333,7 +5179,7 @@
         88
       ],
       "flags": {},
-      "order": 149,
+      "order": 141,
       "mode": 0,
       "inputs": [
         {
@@ -5373,7 +5219,7 @@
         88
       ],
       "flags": {},
-      "order": 148,
+      "order": 140,
       "mode": 0,
       "inputs": [
         {
@@ -5444,7 +5290,7 @@
         26
       ],
       "flags": {},
-      "order": 116,
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
@@ -5479,7 +5325,7 @@
         60
       ],
       "flags": {},
-      "order": 140,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -5551,7 +5397,7 @@
         46
       ],
       "flags": {},
-      "order": 129,
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -5642,7 +5488,7 @@
         86
       ],
       "flags": {},
-      "order": 197,
+      "order": 199,
       "mode": 0,
       "inputs": [
         {
@@ -5702,7 +5548,7 @@
         86
       ],
       "flags": {},
-      "order": 199,
+      "order": 202,
       "mode": 0,
       "inputs": [
         {
@@ -5762,7 +5608,7 @@
         86
       ],
       "flags": {},
-      "order": 176,
+      "order": 179,
       "mode": 0,
       "inputs": [
         {
@@ -5822,7 +5668,7 @@
         86
       ],
       "flags": {},
-      "order": 136,
+      "order": 134,
       "mode": 0,
       "inputs": [
         {
@@ -5882,7 +5728,7 @@
         90
       ],
       "flags": {},
-      "order": 147,
+      "order": 164,
       "mode": 4,
       "inputs": [
         {
@@ -5890,7 +5736,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 2100
+          "link": 4167
         }
       ],
       "outputs": [
@@ -5924,7 +5770,7 @@
         88
       ],
       "flags": {},
-      "order": 146,
+      "order": 163,
       "mode": 4,
       "inputs": [
         {
@@ -5932,7 +5778,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 2101
+          "link": 4166
         }
       ],
       "outputs": [
@@ -5964,7 +5810,7 @@
         88
       ],
       "flags": {},
-      "order": 145,
+      "order": 162,
       "mode": 4,
       "inputs": [
         {
@@ -5972,7 +5818,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 2102
+          "link": 4164
         }
       ],
       "outputs": [
@@ -6006,7 +5852,7 @@
         88
       ],
       "flags": {},
-      "order": 58,
+      "order": 69,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -6015,7 +5861,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            3874
+            4158
           ]
         }
       ],
@@ -6041,7 +5887,7 @@
         430
       ],
       "flags": {},
-      "order": 59,
+      "order": 54,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -6066,7 +5912,7 @@
         102
       ],
       "flags": {},
-      "order": 61,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -6120,7 +5966,7 @@
         190
       ],
       "flags": {},
-      "order": 68,
+      "order": 63,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6155,7 +6001,7 @@
         214
       ],
       "flags": {},
-      "order": 75,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -6248,7 +6094,7 @@
         88
       ],
       "flags": {},
-      "order": 47,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -6273,7 +6119,7 @@
         88
       ],
       "flags": {},
-      "order": 40,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -6298,7 +6144,7 @@
         60
       ],
       "flags": {},
-      "order": 172,
+      "order": 173,
       "mode": 0,
       "inputs": [
         {
@@ -6336,7 +6182,7 @@
         60
       ],
       "flags": {},
-      "order": 164,
+      "order": 156,
       "mode": 0,
       "inputs": [
         {
@@ -6374,7 +6220,7 @@
         58
       ],
       "flags": {},
-      "order": 177,
+      "order": 180,
       "mode": 0,
       "inputs": [
         {
@@ -6411,7 +6257,7 @@
         60
       ],
       "flags": {},
-      "order": 67,
+      "order": 62,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6443,7 +6289,7 @@
         122
       ],
       "flags": {},
-      "order": 91,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -6510,7 +6356,7 @@
         60
       ],
       "flags": {},
-      "order": 152,
+      "order": 146,
       "mode": 0,
       "inputs": [
         {
@@ -6549,7 +6395,7 @@
         60
       ],
       "flags": {},
-      "order": 37,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6582,7 +6428,7 @@
         122
       ],
       "flags": {},
-      "order": 167,
+      "order": 158,
       "mode": 0,
       "inputs": [
         {
@@ -6657,7 +6503,7 @@
         60
       ],
       "flags": {},
-      "order": 53,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6691,7 +6537,7 @@
         58
       ],
       "flags": {},
-      "order": 54,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6724,7 +6570,7 @@
         58
       ],
       "flags": {},
-      "order": 55,
+      "order": 51,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6756,7 +6602,7 @@
         106
       ],
       "flags": {},
-      "order": 196,
+      "order": 198,
       "mode": 0,
       "inputs": [
         {
@@ -6860,7 +6706,7 @@
         122
       ],
       "flags": {},
-      "order": 96,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -6927,7 +6773,7 @@
         162
       ],
       "flags": {},
-      "order": 128,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
@@ -7035,7 +6881,7 @@
         198
       ],
       "flags": {},
-      "order": 168,
+      "order": 185,
       "mode": 4,
       "inputs": [
         {
@@ -7089,7 +6935,7 @@
         86
       ],
       "flags": {},
-      "order": 162,
+      "order": 176,
       "mode": 4,
       "inputs": [
         {
@@ -7149,7 +6995,7 @@
         86
       ],
       "flags": {},
-      "order": 182,
+      "order": 196,
       "mode": 4,
       "inputs": [
         {
@@ -7209,7 +7055,7 @@
         146
       ],
       "flags": {},
-      "order": 100,
+      "order": 104,
       "mode": 4,
       "inputs": [
         {
@@ -7275,7 +7121,7 @@
         118
       ],
       "flags": {},
-      "order": 198,
+      "order": 208,
       "mode": 4,
       "inputs": [
         {
@@ -7354,7 +7200,7 @@
         146
       ],
       "flags": {},
-      "order": 200,
+      "order": 209,
       "mode": 4,
       "inputs": [
         {
@@ -7429,7 +7275,7 @@
         60
       ],
       "flags": {},
-      "order": 79,
+      "order": 83,
       "mode": 4,
       "inputs": [
         {
@@ -7468,7 +7314,7 @@
         58
       ],
       "flags": {},
-      "order": 77,
+      "order": 81,
       "mode": 4,
       "inputs": [
         {
@@ -7578,7 +7424,7 @@
         128
       ],
       "flags": {},
-      "order": 201,
+      "order": 210,
       "mode": 4,
       "inputs": [
         {
@@ -7640,7 +7486,7 @@
         60
       ],
       "flags": {},
-      "order": 203,
+      "order": 211,
       "mode": 4,
       "inputs": [
         {
@@ -7681,7 +7527,7 @@
         200
       ],
       "flags": {},
-      "order": 204,
+      "order": 212,
       "mode": 4,
       "inputs": [
         {
@@ -7790,7 +7636,7 @@
         58
       ],
       "flags": {},
-      "order": 78,
+      "order": 82,
       "mode": 4,
       "inputs": [
         {
@@ -7828,7 +7674,7 @@
         66
       ],
       "flags": {},
-      "order": 205,
+      "order": 213,
       "mode": 4,
       "inputs": [
         {
@@ -7888,7 +7734,7 @@
         106
       ],
       "flags": {},
-      "order": 206,
+      "order": 214,
       "mode": 4,
       "inputs": [
         {
@@ -7930,7 +7776,7 @@
         198
       ],
       "flags": {},
-      "order": 165,
+      "order": 186,
       "mode": 4,
       "inputs": [
         {
@@ -7983,7 +7829,7 @@
         170
       ],
       "flags": {},
-      "order": 175,
+      "order": 197,
       "mode": 4,
       "inputs": [
         {
@@ -8023,7 +7869,7 @@
         156
       ],
       "flags": {},
-      "order": 169,
+      "order": 191,
       "mode": 4,
       "inputs": [
         {
@@ -8092,7 +7938,7 @@
         58
       ],
       "flags": {},
-      "order": 36,
+      "order": 70,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -8100,7 +7946,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            3868
+            4168
           ]
         }
       ],
@@ -8123,7 +7969,7 @@
         88
       ],
       "flags": {},
-      "order": 38,
+      "order": 71,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -8132,7 +7978,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            3869
+            4169
           ]
         }
       ],
@@ -8158,7 +8004,7 @@
         102
       ],
       "flags": {},
-      "order": 131,
+      "order": 166,
       "mode": 4,
       "inputs": [
         {
@@ -8168,7 +8014,7 @@
           "widget": {
             "name": "input_string"
           },
-          "link": 3211
+          "link": 4175
         }
       ],
       "outputs": [
@@ -8210,14 +8056,14 @@
         340
       ],
       "flags": {},
-      "order": 130,
+      "order": 165,
       "mode": 4,
       "inputs": [
         {
           "label": "图像",
           "name": "images",
           "type": "IMAGE",
-          "link": 3212
+          "link": 4174
         }
       ],
       "outputs": [],
@@ -8241,13 +8087,13 @@
         76
       ],
       "flags": {},
-      "order": 132,
+      "order": 167,
       "mode": 4,
       "inputs": [
         {
           "name": "text",
           "type": "STRING",
-          "link": 3213
+          "link": 4176
         }
       ],
       "outputs": [
@@ -8281,7 +8127,7 @@
         88
       ],
       "flags": {},
-      "order": 133,
+      "order": 168,
       "mode": 4,
       "inputs": [
         {
@@ -8289,7 +8135,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 3214
+          "link": 4177
         }
       ],
       "outputs": [
@@ -8323,7 +8169,7 @@
         88
       ],
       "flags": {},
-      "order": 134,
+      "order": 169,
       "mode": 4,
       "inputs": [
         {
@@ -8331,7 +8177,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 3215
+          "link": 4178
         }
       ],
       "outputs": [
@@ -8363,7 +8209,7 @@
         90
       ],
       "flags": {},
-      "order": 135,
+      "order": 170,
       "mode": 4,
       "inputs": [
         {
@@ -8371,7 +8217,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 3216
+          "link": 4179
         }
       ],
       "outputs": [
@@ -8405,7 +8251,7 @@
         146
       ],
       "flags": {},
-      "order": 188,
+      "order": 204,
       "mode": 4,
       "inputs": [
         {
@@ -8487,7 +8333,7 @@
         86
       ],
       "flags": {},
-      "order": 183,
+      "order": 201,
       "mode": 4,
       "inputs": [
         {
@@ -8547,7 +8393,7 @@
         86
       ],
       "flags": {},
-      "order": 155,
+      "order": 178,
       "mode": 4,
       "inputs": [
         {
@@ -8607,7 +8453,7 @@
         118
       ],
       "flags": {},
-      "order": 102,
+      "order": 131,
       "mode": 4,
       "inputs": [
         {
@@ -8623,7 +8469,7 @@
           "widget": {
             "name": "total"
           },
-          "link": 3870
+          "link": 4173
         },
         {
           "name": "initial_value2",
@@ -8646,7 +8492,7 @@
           "name": "index",
           "type": "INT",
           "links": [
-            3864
+            4180
           ]
         },
         {
@@ -8676,81 +8522,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 371,
-      "type": "GetMarkedImageByIndex_AutoData_V2_CN",
-      "pos": [
-        6040,
-        3270
-      ],
-      "size": [
-        358.080078125,
-        262
-      ],
-      "flags": {},
-      "order": 118,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "序号",
-          "name": "序号",
-          "type": "INT",
-          "widget": {
-            "name": "序号"
-          },
-          "link": 3864
-        }
-      ],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": [
-            3212
-          ]
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": [
-            3211,
-            3213,
-            3214
-          ]
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": [
-            3215
-          ]
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": [
-            3216
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V2_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        "！",
-        false,
-        "",
-        0,
-        "文件名 (升序 A-Z, 0-9)",
-        "png,jpg,jpeg,webp"
-      ]
-    },
-    {
       "id": 372,
       "type": "ReadExcelData",
       "pos": [
@@ -8762,7 +8533,7 @@
         130
       ],
       "flags": {},
-      "order": 154,
+      "order": 177,
       "mode": 4,
       "inputs": [
         {
@@ -8820,7 +8591,7 @@
         106
       ],
       "flags": {},
-      "order": 194,
+      "order": 206,
       "mode": 4,
       "inputs": [
         {
@@ -8924,7 +8695,7 @@
         122
       ],
       "flags": {},
-      "order": 195,
+      "order": 207,
       "mode": 4,
       "inputs": [
         {
@@ -9033,7 +8804,7 @@
         270
       ],
       "flags": {},
-      "order": 80,
+      "order": 84,
       "mode": 4,
       "inputs": [
         {
@@ -9066,7 +8837,7 @@
         60
       ],
       "flags": {},
-      "order": 81,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -9106,7 +8877,7 @@
         58
       ],
       "flags": {},
-      "order": 121,
+      "order": 124,
       "mode": 0,
       "inputs": [
         {
@@ -9148,7 +8919,7 @@
         442
       ],
       "flags": {},
-      "order": 42,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9181,7 +8952,7 @@
         60
       ],
       "flags": {},
-      "order": 202,
+      "order": 205,
       "mode": 0,
       "inputs": [
         {
@@ -9218,7 +8989,7 @@
         60
       ],
       "flags": {},
-      "order": 46,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9249,7 +9020,7 @@
         146
       ],
       "flags": {},
-      "order": 127,
+      "order": 129,
       "mode": 0,
       "inputs": [
         {
@@ -9316,7 +9087,7 @@
         146
       ],
       "flags": {},
-      "order": 190,
+      "order": 193,
       "mode": 0,
       "inputs": [
         {
@@ -9379,7 +9150,7 @@
         60
       ],
       "flags": {},
-      "order": 98,
+      "order": 102,
       "mode": 4,
       "inputs": [
         {
@@ -9421,7 +9192,7 @@
         26
       ],
       "flags": {},
-      "order": 64,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -9459,7 +9230,7 @@
         200
       ],
       "flags": {},
-      "order": 158,
+      "order": 150,
       "mode": 0,
       "inputs": [
         {
@@ -9499,7 +9270,7 @@
         88
       ],
       "flags": {},
-      "order": 156,
+      "order": 148,
       "mode": 0,
       "inputs": [
         {
@@ -9539,7 +9310,7 @@
         170
       ],
       "flags": {},
-      "order": 57,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -9590,137 +9361,6 @@
       ]
     },
     {
-      "id": 415,
-      "type": "GetMarkedImageByIndex_AutoData_V2_CN",
-      "pos": [
-        4610,
-        2380
-      ],
-      "size": [
-        293.5689392089844,
-        262
-      ],
-      "flags": {},
-      "order": 34,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": null
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V2_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        0,
-        "文件名 (升序 A-Z, 0-9)",
-        "png,jpg,jpeg,webp",
-        "",
-        "",
-        true
-      ]
-    },
-    {
-      "id": 419,
-      "type": "GetMarkedImageByIndex_AutoData_V2_CN",
-      "pos": [
-        5360,
-        3240
-      ],
-      "size": [
-        358.080078125,
-        262
-      ],
-      "flags": {},
-      "order": 83,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "文件夹路径",
-          "name": "文件夹路径",
-          "type": "STRING",
-          "widget": {
-            "name": "文件夹路径"
-          },
-          "link": 3868
-        },
-        {
-          "label": "搜索标记",
-          "name": "搜索标记",
-          "type": "STRING",
-          "widget": {
-            "name": "搜索标记"
-          },
-          "link": 3869
-        }
-      ],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": null
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": [
-            3870
-          ]
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V2_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        0,
-        "文件名 (升序 A-Z, 0-9)",
-        "png,jpg,jpeg,webp",
-        "",
-        "",
-        true
-      ]
-    },
-    {
       "id": 420,
       "type": "Note",
       "pos": [
@@ -9732,7 +9372,7 @@
         88
       ],
       "flags": {},
-      "order": 41,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9757,7 +9397,7 @@
         88
       ],
       "flags": {},
-      "order": 43,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9782,7 +9422,7 @@
         88
       ],
       "flags": {},
-      "order": 49,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9807,7 +9447,7 @@
         88
       ],
       "flags": {},
-      "order": 51,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9832,7 +9472,7 @@
         88
       ],
       "flags": {},
-      "order": 48,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9857,7 +9497,7 @@
         88
       ],
       "flags": {},
-      "order": 52,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9882,8 +9522,8 @@
         510
       ],
       "flags": {},
-      "order": 153,
-      "mode": 0,
+      "order": 147,
+      "mode": 4,
       "inputs": [
         {
           "label": "图像",
@@ -9915,7 +9555,7 @@
         354.000244140625
       ],
       "flags": {},
-      "order": 66,
+      "order": 61,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9969,7 +9609,7 @@
         340
       ],
       "flags": {},
-      "order": 90,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -10009,7 +9649,7 @@
         82
       ],
       "flags": {},
-      "order": 65,
+      "order": 60,
       "mode": 4,
       "inputs": [
         {
@@ -10035,6 +9675,764 @@
       "widgets_values": [
         "eps",
         false
+      ]
+    },
+    {
+      "id": 435,
+      "type": "Note",
+      "pos": [
+        6410,
+        -1890
+      ],
+      "size": [
+        210,
+        88
+      ],
+      "flags": {},
+      "order": 66,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "默认状态下，会根据节点文件夹中的excel文件进行生图。\n\n请更改位置。并创建文件夹"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 436,
+      "type": "GetMarkedImageByIndex_AutoData_V4_CN",
+      "pos": [
+        5370,
+        2460
+      ],
+      "size": [
+        314.5826110839844,
+        282
+      ],
+      "flags": {},
+      "order": 96,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文件夹路径",
+          "name": "文件夹路径",
+          "type": "STRING",
+          "widget": {
+            "name": "文件夹路径"
+          },
+          "link": 4157
+        },
+        {
+          "label": "搜索标记",
+          "name": "搜索标记",
+          "type": "STRING",
+          "widget": {
+            "name": "搜索标记"
+          },
+          "link": 4158
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "label": "文件名",
+          "name": "文件名",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "元数据 (JSON)",
+          "name": "元数据 (JSON)",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "文件总数",
+          "name": "文件总数",
+          "type": "INT",
+          "links": [
+            4184
+          ]
+        },
+        {
+          "label": "状态信息",
+          "name": "状态信息",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V4_CN",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "请填入文件夹路径",
+        0,
+        "文件名 (升序 A-Z, 0-9)",
+        "png,jpg,jpeg,webp",
+        "",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 437,
+      "type": "GetMarkedImageByIndex_AutoData_V4_CN",
+      "pos": [
+        6060,
+        2460
+      ],
+      "size": [
+        314.5826110839844,
+        282
+      ],
+      "flags": {},
+      "order": 153,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "序号",
+          "name": "序号",
+          "type": "INT",
+          "widget": {
+            "name": "序号"
+          },
+          "link": 4186
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": [
+            4161
+          ]
+        },
+        {
+          "label": "文件名",
+          "name": "文件名",
+          "type": "STRING",
+          "links": [
+            4162,
+            4163,
+            4164,
+            4165
+          ]
+        },
+        {
+          "label": "元数据 (JSON)",
+          "name": "元数据 (JSON)",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "文件总数",
+          "name": "文件总数",
+          "type": "INT",
+          "links": [
+            4166
+          ]
+        },
+        {
+          "label": "状态信息",
+          "name": "状态信息",
+          "type": "STRING",
+          "links": [
+            4167
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V4_CN",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "请填入文件夹路径",
+        0,
+        "文件名 (升序 A-Z, 0-9)",
+        "png,jpg,jpeg,webp",
+        "",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 438,
+      "type": "GetMarkedImageByIndex_AutoData_V4_CN",
+      "pos": [
+        6050,
+        3280
+      ],
+      "size": [
+        314.5826110839844,
+        282
+      ],
+      "flags": {},
+      "order": 154,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "序号",
+          "name": "序号",
+          "type": "INT",
+          "widget": {
+            "name": "序号"
+          },
+          "link": 4181
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": [
+            4174
+          ]
+        },
+        {
+          "label": "文件名",
+          "name": "文件名",
+          "type": "STRING",
+          "links": [
+            4175,
+            4176,
+            4177
+          ]
+        },
+        {
+          "label": "元数据 (JSON)",
+          "name": "元数据 (JSON)",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "文件总数",
+          "name": "文件总数",
+          "type": "INT",
+          "links": [
+            4178
+          ]
+        },
+        {
+          "label": "状态信息",
+          "name": "状态信息",
+          "type": "STRING",
+          "links": [
+            4179
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V4_CN",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "请填入文件夹路径",
+        0,
+        "文件名 (升序 A-Z, 0-9)",
+        "png,jpg,jpeg,webp",
+        "",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 439,
+      "type": "GetMarkedImageByIndex_AutoData_V4_CN",
+      "pos": [
+        5370,
+        3180
+      ],
+      "size": [
+        314.5826110839844,
+        282
+      ],
+      "flags": {},
+      "order": 97,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文件夹路径",
+          "name": "文件夹路径",
+          "type": "STRING",
+          "widget": {
+            "name": "文件夹路径"
+          },
+          "link": 4168
+        },
+        {
+          "label": "搜索标记",
+          "name": "搜索标记",
+          "type": "STRING",
+          "widget": {
+            "name": "搜索标记"
+          },
+          "link": 4169
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "label": "文件名",
+          "name": "文件名",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "label": "元数据 (JSON)",
+          "name": "元数据 (JSON)",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "文件总数",
+          "name": "文件总数",
+          "type": "INT",
+          "links": [
+            4172
+          ]
+        },
+        {
+          "label": "状态信息",
+          "name": "状态信息",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V4_CN",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "请填入文件夹路径",
+        0,
+        "文件名 (升序 A-Z, 0-9)",
+        "png,jpg,jpeg,webp",
+        "",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 440,
+      "type": "MathExpression|pysssss",
+      "pos": [
+        5760,
+        3370
+      ],
+      "size": [
+        210,
+        128
+      ],
+      "flags": {},
+      "order": 117,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "a",
+          "name": "a",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 4172
+        },
+        {
+          "label": "b",
+          "name": "b",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 4170
+        },
+        {
+          "label": "c",
+          "name": "c",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "整数",
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            4173
+          ]
+        },
+        {
+          "label": "浮点",
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "a-b"
+      ]
+    },
+    {
+      "id": 441,
+      "type": "MathExpression|pysssss",
+      "pos": [
+        5750,
+        3550
+      ],
+      "size": [
+        210,
+        128
+      ],
+      "flags": {},
+      "order": 144,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "a",
+          "name": "a",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 4180
+        },
+        {
+          "label": "b",
+          "name": "b",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 4171
+        },
+        {
+          "label": "c",
+          "name": "c",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "整数",
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            4181
+          ]
+        },
+        {
+          "label": "浮点",
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "a+b"
+      ]
+    },
+    {
+      "id": 442,
+      "type": "Constant Number",
+      "pos": [
+        5370,
+        3580
+      ],
+      "size": [
+        270,
+        122
+      ],
+      "flags": {},
+      "order": 72,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "number_as_text",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "数字",
+          "name": "NUMBER",
+          "type": "NUMBER",
+          "links": null
+        },
+        {
+          "label": "浮点",
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "label": "整数",
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            4170,
+            4171
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1.0.2",
+        "widget_ue_connectable": {},
+        "Node name for S&R": "Constant Number"
+      },
+      "widgets_values": [
+        "integer",
+        0
+      ]
+    },
+    {
+      "id": 443,
+      "type": "Note",
+      "pos": [
+        5120,
+        3620
+      ],
+      "size": [
+        210,
+        88
+      ],
+      "flags": {},
+      "order": 73,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "开始位置（用于接上先前断开的位置）\n0表示从第一个开始\n1表示从第二个开始"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 445,
+      "type": "Note",
+      "pos": [
+        5140,
+        2890
+      ],
+      "size": [
+        210,
+        88
+      ],
+      "flags": {},
+      "order": 75,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "开始位置（用于接上先前断开的位置）\n0表示从第一个开始\n1表示从第二个开始"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 446,
+      "type": "MathExpression|pysssss",
+      "pos": [
+        5800,
+        2780
+      ],
+      "size": [
+        210,
+        128
+      ],
+      "flags": {},
+      "order": 143,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "a",
+          "name": "a",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 4187
+        },
+        {
+          "label": "b",
+          "name": "b",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 4182
+        },
+        {
+          "label": "c",
+          "name": "c",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "整数",
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            4186
+          ]
+        },
+        {
+          "label": "浮点",
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "a+b"
+      ]
+    },
+    {
+      "id": 447,
+      "type": "MathExpression|pysssss",
+      "pos": [
+        5800,
+        2600
+      ],
+      "size": [
+        210,
+        128
+      ],
+      "flags": {},
+      "order": 116,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "a",
+          "name": "a",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 4184
+        },
+        {
+          "label": "b",
+          "name": "b",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 4183
+        },
+        {
+          "label": "c",
+          "name": "c",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "整数",
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            4185
+          ]
+        },
+        {
+          "label": "浮点",
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "a-b"
+      ]
+    },
+    {
+      "id": 448,
+      "type": "Constant Number",
+      "pos": [
+        5410,
+        2810
+      ],
+      "size": [
+        270,
+        122
+      ],
+      "flags": {},
+      "order": 74,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "number_as_text",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "数字",
+          "name": "NUMBER",
+          "type": "NUMBER",
+          "links": null
+        },
+        {
+          "label": "浮点",
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "label": "整数",
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            4182,
+            4183
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1.0.2",
+        "widget_ue_connectable": {},
+        "Node name for S&R": "Constant Number"
+      },
+      "widgets_values": [
+        "integer",
+        0
       ]
     }
   ],
@@ -10712,38 +11110,6 @@
       "*"
     ],
     [
-      1477,
-      237,
-      0,
-      212,
-      0,
-      "IMAGE"
-    ],
-    [
-      1478,
-      237,
-      1,
-      240,
-      0,
-      "STRING"
-    ],
-    [
-      1503,
-      241,
-      2,
-      228,
-      1,
-      "INT"
-    ],
-    [
-      1508,
-      237,
-      1,
-      232,
-      0,
-      "STRING"
-    ],
-    [
       1591,
       48,
       0,
@@ -10860,30 +11226,6 @@
       151,
       4,
       70,
-      0,
-      "*"
-    ],
-    [
-      2100,
-      237,
-      3,
-      279,
-      0,
-      "*"
-    ],
-    [
-      2101,
-      237,
-      2,
-      280,
-      0,
-      "*"
-    ],
-    [
-      2102,
-      237,
-      1,
-      281,
       0,
       "*"
     ],
@@ -11120,14 +11462,6 @@
       "IMAGE"
     ],
     [
-      3108,
-      237,
-      1,
-      235,
-      3,
-      "STRING"
-    ],
-    [
       3109,
       316,
       0,
@@ -11342,54 +11676,6 @@
       356,
       0,
       "STRING"
-    ],
-    [
-      3211,
-      371,
-      1,
-      361,
-      0,
-      "STRING"
-    ],
-    [
-      3212,
-      371,
-      0,
-      362,
-      0,
-      "IMAGE"
-    ],
-    [
-      3213,
-      371,
-      1,
-      363,
-      0,
-      "STRING"
-    ],
-    [
-      3214,
-      371,
-      1,
-      364,
-      0,
-      "*"
-    ],
-    [
-      3215,
-      371,
-      2,
-      365,
-      0,
-      "*"
-    ],
-    [
-      3216,
-      371,
-      3,
-      366,
-      0,
-      "*"
     ],
     [
       3217,
@@ -11688,54 +11974,6 @@
       "*"
     ],
     [
-      3863,
-      228,
-      1,
-      237,
-      0,
-      "INT"
-    ],
-    [
-      3864,
-      370,
-      1,
-      371,
-      0,
-      "INT"
-    ],
-    [
-      3865,
-      211,
-      0,
-      241,
-      0,
-      "STRING"
-    ],
-    [
-      3868,
-      358,
-      0,
-      419,
-      0,
-      "STRING"
-    ],
-    [
-      3869,
-      360,
-      0,
-      419,
-      1,
-      "STRING"
-    ],
-    [
-      3870,
-      419,
-      2,
-      370,
-      1,
-      "INT"
-    ],
-    [
       3871,
       199,
       0,
@@ -11758,14 +11996,6 @@
       271,
       0,
       "IMAGE,MASK,LATENT,MODEL,CLIP,VAE,CONDITIONING,STRING,INT,FLOAT"
-    ],
-    [
-      3874,
-      283,
-      0,
-      241,
-      1,
-      "STRING"
     ],
     [
       3961,
@@ -11814,6 +12044,238 @@
       433,
       0,
       "*"
+    ],
+    [
+      4157,
+      211,
+      0,
+      436,
+      0,
+      "STRING"
+    ],
+    [
+      4158,
+      283,
+      0,
+      436,
+      1,
+      "STRING"
+    ],
+    [
+      4161,
+      437,
+      0,
+      212,
+      0,
+      "IMAGE"
+    ],
+    [
+      4162,
+      437,
+      1,
+      240,
+      0,
+      "STRING"
+    ],
+    [
+      4163,
+      437,
+      1,
+      232,
+      0,
+      "STRING"
+    ],
+    [
+      4164,
+      437,
+      1,
+      281,
+      0,
+      "*"
+    ],
+    [
+      4165,
+      437,
+      1,
+      235,
+      3,
+      "STRING"
+    ],
+    [
+      4166,
+      437,
+      3,
+      280,
+      0,
+      "*"
+    ],
+    [
+      4167,
+      437,
+      4,
+      279,
+      0,
+      "*"
+    ],
+    [
+      4168,
+      358,
+      0,
+      439,
+      0,
+      "STRING"
+    ],
+    [
+      4169,
+      360,
+      0,
+      439,
+      1,
+      "STRING"
+    ],
+    [
+      4170,
+      442,
+      2,
+      440,
+      1,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      4171,
+      442,
+      2,
+      441,
+      1,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      4172,
+      439,
+      3,
+      440,
+      0,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      4173,
+      440,
+      0,
+      370,
+      1,
+      "INT"
+    ],
+    [
+      4174,
+      438,
+      0,
+      362,
+      0,
+      "IMAGE"
+    ],
+    [
+      4175,
+      438,
+      1,
+      361,
+      0,
+      "STRING"
+    ],
+    [
+      4176,
+      438,
+      1,
+      363,
+      0,
+      "STRING"
+    ],
+    [
+      4177,
+      438,
+      1,
+      364,
+      0,
+      "*"
+    ],
+    [
+      4178,
+      438,
+      3,
+      365,
+      0,
+      "*"
+    ],
+    [
+      4179,
+      438,
+      4,
+      366,
+      0,
+      "*"
+    ],
+    [
+      4180,
+      370,
+      1,
+      441,
+      0,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      4181,
+      441,
+      0,
+      438,
+      0,
+      "INT"
+    ],
+    [
+      4182,
+      448,
+      2,
+      446,
+      1,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      4183,
+      448,
+      2,
+      447,
+      1,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      4184,
+      436,
+      3,
+      447,
+      0,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      4185,
+      447,
+      0,
+      228,
+      1,
+      "INT"
+    ],
+    [
+      4186,
+      446,
+      0,
+      437,
+      0,
+      "INT"
+    ],
+    [
+      4187,
+      228,
+      1,
+      446,
+      0,
+      "INT,FLOAT,IMAGE,LATENT"
     ]
   ],
   "groups": [
