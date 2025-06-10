@@ -45,7 +45,7 @@
 ---
 
 <details>
-<summary>## 安装 </summary><br/>
+<summary> ## 安装 </summary><br/>
 
 1. **打开 ComfyUI 目录：** 导航到你的 ComfyUI 安装目录。
 
