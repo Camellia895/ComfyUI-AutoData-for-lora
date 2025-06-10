@@ -142,14 +142,22 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 然后你会的得到一个类似这样的excel表格（我做了中断，如果你点击继续运行，它就会从缺失位置继续生成图片）
 ![image](https://github.com/user-attachments/assets/d5ae9a1e-84d3-4b03-b9bf-0f43f01654d7)
 
-## 新
+<details>
+<summary>
+关于词典操作
+</summary><br/>
+ 
 让tagger写入到词典中，不重复，并去掉重复的逗号，去掉非法的换行符号。你可以右键点击播放声音节点，在菜单中选择执行节点。这样就就能只执行框中的节点了。
 ![image](https://github.com/user-attachments/assets/22625a95-8c5f-45db-8183-5014f0082225)
 按顺序读取词典行，然后把词典写入的excel中。你可以右键点击播放声音节点，在菜单中选择执行节点。这样就就能只执行框中的节点了。
 ![image](https://github.com/user-attachments/assets/034d85e4-846d-4dfc-9939-b1fcb7d7d1e1)
 两者直接以切换节点连接。选择2的时候不执行上方的节点。
 ![image](https://github.com/user-attachments/assets/31a15adc-ae56-4870-89b6-ea920a916f65)
-##新
+<details>
+<summary>
+##新关于图像分练（C站上的图片总是参差不齐，群友的图像总是乱七八糟，那么就用它罢）
+</summary><br/>
+ 
 图像分练工作流，读取图像，并获取元数据，使用元数据检测节点判断是什么图像。
 并迁移在目标位置创建连接。（符号连接和硬连接）具体可以看我在工作流中的注释。
 ![image](https://github.com/user-attachments/assets/ac94c1f5-ae99-4db5-b2d2-d8334077fbcd)
@@ -157,6 +165,7 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 ![image](https://github.com/user-attachments/assets/be1ce814-8800-4c02-8101-3b167bff8185)
 
 
+</details>
 
 
 
