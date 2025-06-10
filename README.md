@@ -11,9 +11,7 @@
 
 <details>
 <summary>
-<h2>
-未来计划：
-</h2>
+<h2>未来计划：</h2>
 </summary><br/>
 
 上传到ComfyUI Manager 未完成
