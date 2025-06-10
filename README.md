@@ -44,7 +44,8 @@
 
 ---
 
-## 安装
+<details>
+<summary>## 安装 </summary><br/>
 
 1. **打开 ComfyUI 目录：** 导航到你的 ComfyUI 安装目录。
 
@@ -63,6 +64,8 @@
      点击 GitHub 页面上的 "Code" 按钮，然后选择 "Download ZIP"。解压下载的 ZIP 文件，将其中的文件夹（例如 `ComfyUI-AutoData-for-lora-main`）重命名为 `ComfyUI-AutoData-for-lora`，并将其移动到 `custom_nodes` 文件夹中。
 
 4. **重启 ComfyUI：** 关闭并重新启动 ComfyUI，新的节点应该出现在你的节点列表中。
+   
+</details>
 
 ---
 
