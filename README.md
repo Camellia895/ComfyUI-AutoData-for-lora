@@ -81,6 +81,7 @@
 </details>
 
 ---
+
 <details>
 <summary>
 <h2>节点介绍</h2>
@@ -95,7 +96,11 @@
 * （额外的，但不是节点）词典我放在resources文件夹中，请把词典移动到easy——use节点的的wildcards下。比如我的，就放在G:\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-easy-use\wildcards下。
 
 </details>
+<details>
+<summary>
 <h2>节点详情</h2>
+ </summary><br/>
+ 
 <details>
 <summary>
 <h3>1. 按序号自动加载标记图像 </h3>
@@ -114,6 +119,7 @@
 </details>
 
 ---
+
 <details>
 <summary>
 <h3>2. 自动清理1x1png (`clean_1x1_png`)</h3>
@@ -123,8 +129,10 @@
 ![image](https://github.com/user-attachments/assets/c04be277-eb7c-4a4f-90df-88137d771c5f)
  
 </details>
+</details>
 
 ---
+
 <details>
 <summary>
 <h2> 讲解部分 </h2>
@@ -163,6 +171,7 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 </details>
 
 ---
+
 <details>
 <summary>
 <h2>关于词典操作</h2>
@@ -185,10 +194,7 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 你会得到（因为是硬连接，所以文件夹显示的文件大小不准，请查看磁盘的大小变化，512张1024*1024图片实际上只大了4.3个Mb）
 ![image](https://github.com/user-attachments/assets/be1ce814-8800-4c02-8101-3b167bff8185)
 
-
 </details>
-
-
 
 ---
 
