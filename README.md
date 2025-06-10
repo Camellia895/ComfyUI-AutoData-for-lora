@@ -68,8 +68,10 @@
 </details>
 
 ---
-
+<details>
+<summary>
 ## 节点介绍
+</summary><br/>
 
 * **按序号自动加载标记图像:** 根据多种条件（修改时间、文件名、文件后缀、包含/排除标识）按顺序输出特定文件路径，适用于需要按顺序处理文件（如名称顺序）或自动筛选 Lora 训练素材的场景。
 * **自动清理1x1png :** 自动扫描并删除指定文件夹中所有尺寸为 1x1 像素的 PNG 图片。这些图片是工作流不可避免而产生的占位符，通过清理可保持数据目录整洁。默认模式为试运行也就是dry_run,如果试运行成功在把试运行关掉。具体可以看控制台状况。（这个节点可以单独拖动到文件夹中作为批处理脚本使用。）
@@ -80,6 +82,7 @@
 * （额外的，但不是节点）当中有个自动读取节点的![image](https://github.com/user-attachments/assets/aa8dda99-74c5-4bd4-936d-4c0f32ee3623)文件，**不用注册也能读取节点**。利好节点开发。
 * （额外的，但不是节点）词典我放在resources文件夹中，请把词典移动到easy——use节点的的wildcards下。比如我的，就放在G:\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-easy-use\wildcards下。
 
+</details>
 
 
 ## 节点详情
