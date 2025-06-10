@@ -28,8 +28,9 @@
 
 <details>
 <summary>
-<h2>快速开始(AutoData-for-lora工作流)（不知道该做什么的话，脑子不够用的话，太长不看的话）:</h2>
+<h2>快速开始(AutoData-for-lora工作流)（脑子不够用的话，太长不看的话）:</h2>
 </summary><br/>
+ 
 ![更新_00001_](https://github.com/user-attachments/assets/dc2b5e3e-c2f7-477d-83f8-20b68ebae665)
 踩踩你的
 *(ningen mame:1.1), (ninjin nouka:1.1), (quasarcake:1.1), (ciloranko:1.15),konya_karasue,z3zz4,
@@ -46,9 +47,11 @@
 4.resources文件夹中的词典放在\custom_nodes\comfyui-easy-use\wildcards中。
 
 5.点击执行
-</details>
+
 
 **运行的时候务必确保excel没有被打开，不然写入不了excel**
+
+</details>
 
 ---
 
