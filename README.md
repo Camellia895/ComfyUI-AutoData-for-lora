@@ -26,6 +26,7 @@
 </details>
 
 ![更新_00001_](https://github.com/user-attachments/assets/dc2b5e3e-c2f7-477d-83f8-20b68ebae665)
+
 踩踩你的
 *(ningen mame:1.1), (ninjin nouka:1.1), (quasarcake:1.1), (ciloranko:1.15),konya_karasue,z3zz4,
 *1girl, no shoes, nahida (genshin impact), feet, pantyhose, white pantyhose, green eyes, solo, pointy ears, white hair, soles, side ponytail, long hair, toes, open mouth, looking at viewer, foot focus, hair ornament, dress, symbol-shaped pupils, sitting, legs, bangs, cross-shaped pupils, blush, hair between eyes, bare shoulders, multicolored hair, sleeveless, foreshortening, white dress, see-through, thighs, sleeveless dress, sweat, panties under pantyhose, underwear, gradient hair, :o, thighband pantyhose, green hair, blurry, wet, fang, full body, ass, knees up, leaf hair ornament
@@ -118,7 +119,9 @@
 <h3>2. 自动清理1x1png (`clean_1x1_png`)</h3>
 </summary><br/>
 自动扫描并删除指定文件夹中所有尺寸为 1x1 像素的 PNG 图片。这些图片是工作流不可避免（目前找到的最优解）而产生的占位符，通过清理可保持数据目录整洁。默认模式为试运行也就是dry_run,如果试运行成功在把试运行关掉。具体可以看控制台状况。或者通过输出看到。（这个节点可以单独拖动到文件夹中作为批处理脚本使用。）
+ 
 ![image](https://github.com/user-attachments/assets/c04be277-eb7c-4a4f-90df-88137d771c5f)
+ 
 </details>
 
 ---
@@ -129,20 +132,34 @@
 ## 为数据集服务的工作流 (AutoData-for-lora Workflow) 当然也可以用于单纯的roll图 
 本仓库的核心价值在于提供一个**为数据集服务的 ComfyUI 工作流**，该工作流演示了如何结合 Excel 表格数据和上述节点，自动化生成 Lora 训练图片并自动生成对应的原生 Tagger 文本文件（不需要的话可以关掉）。（下方有个功能是通过图片读取tagger，需要的话可以打开）
 输入excel位置。我只是将文本框一分为三了，你可以用一个文本框替代，这没有问题。**对了，记得在目标位置创建一个excel文件**
+ 
 ![image](https://github.com/user-attachments/assets/7c3fd999-2155-4c91-b63e-810e2ad1cae5)
+
 这是你的控制台，可以控制需要读取（或写入）的excel位置，一个tagger需要生成几张图片。
 写错了也没关系，重复运行也没关系，这不会导致重复图片产生（也不会花费gpu去重复生成图片），只会输出1x1的png图片，而刚刚的**自动清理1x1png**则是清理这些占位文件的。
+
 ![image](https://github.com/user-attachments/assets/3f610217-ac54-4089-9bfb-22a64346be08)
+
 tagger来自词典或者excel，如果excel中有了的话，就用excel的，没有的话就会自动用词典填一个。
+
 ![image](https://github.com/user-attachments/assets/dcbbbe3b-06f2-4226-bd10-6d16a02cbb9e)
+
 保存图像和写入表格标记
+
 ![image](https://github.com/user-attachments/assets/99eabd9b-d530-4b1d-9964-85f1b31bf339)
+
 下方是简易的工作流的部分，你可以看到，我只给它输入了tagger，然后输出了图片。 你可以把你工作流整合进来，输入tagger，输出特定名称的图片。
+
 ![image](https://github.com/user-attachments/assets/009f4adc-7041-4f09-ac62-f204c59e6822)
+
 用图像从excel中获得tagger。你可以配合我的另一个库里的软件食用https://github.com/Camellia895/Auto-Date-Marking-tools，用于给图像名添加标识符。
+
 ![image](https://github.com/user-attachments/assets/c7c2067c-7051-45d4-91e6-302431e20cf7)
+
 然后你会的得到一个类似这样的excel表格（我做了中断，如果你点击继续运行，它就会从缺失位置继续生成图片）
+
 ![image](https://github.com/user-attachments/assets/d5ae9a1e-84d3-4b03-b9bf-0f43f01654d7)
+
 </details>
 
 ---
