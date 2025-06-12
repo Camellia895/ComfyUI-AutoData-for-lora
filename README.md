@@ -26,6 +26,7 @@
 </details>
 
 ![更新_00001_](https://github.com/user-attachments/assets/dc2b5e3e-c2f7-477d-83f8-20b68ebae665)
+
 踩踩你的
 *(ningen mame:1.1), (ninjin nouka:1.1), (quasarcake:1.1), (ciloranko:1.15),konya_karasue,z3zz4,
 *1girl, no shoes, nahida (genshin impact), feet, pantyhose, white pantyhose, green eyes, solo, pointy ears, white hair, soles, side ponytail, long hair, toes, open mouth, looking at viewer, foot focus, hair ornament, dress, symbol-shaped pupils, sitting, legs, bangs, cross-shaped pupils, blush, hair between eyes, bare shoulders, multicolored hair, sleeveless, foreshortening, white dress, see-through, thighs, sleeveless dress, sweat, panties under pantyhose, underwear, gradient hair, :o, thighband pantyhose, green hair, blurry, wet, fang, full body, ass, knees up, leaf hair ornament
@@ -37,7 +38,7 @@
 
 0.安装节点（不会安装的在往下滑一点点，你应该能看懂怎么安装）
 
-1.将上方的图片拖入comfyui，就是图片代表的工作流（exceldate）可能有些旧（新的在目录workflows下，我非常建议使用最新的工作流）
+1.将上方的图片拖入comfyui，就是这张图片的工作流可能有些旧，有些节点可能已经被淘汰了。（新的在目录workflows下，我非常建议使用最新的工作流）
 
 2.将excel 创建好
 
@@ -80,6 +81,7 @@
 </details>
 
 ---
+
 <details>
 <summary>
 <h2>节点介绍</h2>
@@ -87,15 +89,18 @@
 
 * **按序号自动加载标记图像:** 根据多种条件（修改时间、文件名、文件后缀、包含/排除标识）按顺序输出特定文件路径，适用于需要按顺序处理文件（如名称顺序）或自动筛选 Lora 训练素材的场景。
 * **自动清理1x1png :** 自动扫描并删除指定文件夹中所有尺寸为 1x1 像素的 PNG 图片。这些图片是工作流不可避免而产生的占位符，通过清理可保持数据目录整洁。默认模式为试运行也就是dry_run,如果试运行成功在把试运行关掉。具体可以看控制台状况。（这个节点可以单独拖动到文件夹中作为批处理脚本使用。）
-* **4转一空信号传递:** 为 ComfyUI 中的 For 循环提供简洁的引导机制，减少连线复杂性，使得基于 Excel 数据或列表的批量生成工作流更易于构建。（不论输入什么都会输出字符串格式的0，没有米奇妙妙功能）
-* **一转4空信号传递:**同上
+* **4转一空信号传递:** 被优化掉了
 * **文件迁移并创建链接**：在目标位置创建图像的硬连接，省下100%的空间。
 * **元数据规则检测器 V2**：检测元数据输出检测值
 * （额外的，但不是节点）当中有个自动读取节点的![image](https://github.com/user-attachments/assets/aa8dda99-74c5-4bd4-936d-4c0f32ee3623)文件，**不用注册也能读取节点**。利好节点开发。
 * （额外的，但不是节点）词典我放在resources文件夹中，请把词典移动到easy——use节点的的wildcards下。比如我的，就放在G:\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-easy-use\wildcards下。
 
 </details>
+<details>
+<summary>
 <h2>节点详情</h2>
+ </summary><br/>
+ 
 <details>
 <summary>
 <h3>1. 按序号自动加载标记图像 </h3>
@@ -114,27 +119,20 @@
 </details>
 
 ---
+
 <details>
 <summary>
 <h3>2. 自动清理1x1png (`clean_1x1_png`)</h3>
 </summary><br/>
 自动扫描并删除指定文件夹中所有尺寸为 1x1 像素的 PNG 图片。这些图片是工作流不可避免（目前找到的最优解）而产生的占位符，通过清理可保持数据目录整洁。默认模式为试运行也就是dry_run,如果试运行成功在把试运行关掉。具体可以看控制台状况。或者通过输出看到。（这个节点可以单独拖动到文件夹中作为批处理脚本使用。）
+ 
 ![image](https://github.com/user-attachments/assets/c04be277-eb7c-4a4f-90df-88137d771c5f)
+ 
+</details>
 </details>
 
 ---
-<details>
-<summary>
-<h3> 3. 4转一空信号传递: </h3>
-</summary><br/>
-旨在为 ComfyUI 中的 For 循环提供简洁的引导机制，减少连线复杂性，使得基于 Excel 数据或列表的批量生成工作流更易于构建。（不论输入什么都会输出字符串格式的0，没有米奇妙妙功能）
 
-如图，应该不需要解释，只是一个让for循环不那么乱的工具，
-
-* ![image](https://github.com/user-attachments/assets/3a4229cf-fe4d-4884-bdb0-4485139b3181)
-</details>
-
----
 <details>
 <summary>
 <h2> 讲解部分 </h2>
@@ -142,23 +140,38 @@
 ## 为数据集服务的工作流 (AutoData-for-lora Workflow) 当然也可以用于单纯的roll图 
 本仓库的核心价值在于提供一个**为数据集服务的 ComfyUI 工作流**，该工作流演示了如何结合 Excel 表格数据和上述节点，自动化生成 Lora 训练图片并自动生成对应的原生 Tagger 文本文件（不需要的话可以关掉）。（下方有个功能是通过图片读取tagger，需要的话可以打开）
 输入excel位置。我只是将文本框一分为三了，你可以用一个文本框替代，这没有问题。**对了，记得在目标位置创建一个excel文件**
+ 
 ![image](https://github.com/user-attachments/assets/7c3fd999-2155-4c91-b63e-810e2ad1cae5)
+
 这是你的控制台，可以控制需要读取（或写入）的excel位置，一个tagger需要生成几张图片。
 写错了也没关系，重复运行也没关系，这不会导致重复图片产生（也不会花费gpu去重复生成图片），只会输出1x1的png图片，而刚刚的**自动清理1x1png**则是清理这些占位文件的。
+
 ![image](https://github.com/user-attachments/assets/3f610217-ac54-4089-9bfb-22a64346be08)
+
 tagger来自词典或者excel，如果excel中有了的话，就用excel的，没有的话就会自动用词典填一个。
+
 ![image](https://github.com/user-attachments/assets/dcbbbe3b-06f2-4226-bd10-6d16a02cbb9e)
+
 保存图像和写入表格标记
+
 ![image](https://github.com/user-attachments/assets/99eabd9b-d530-4b1d-9964-85f1b31bf339)
+
 下方是简易的工作流的部分，你可以看到，我只给它输入了tagger，然后输出了图片。 你可以把你工作流整合进来，输入tagger，输出特定名称的图片。
+
 ![image](https://github.com/user-attachments/assets/009f4adc-7041-4f09-ac62-f204c59e6822)
+
 用图像从excel中获得tagger。你可以配合我的另一个库里的软件食用https://github.com/Camellia895/Auto-Date-Marking-tools，用于给图像名添加标识符。
+
 ![image](https://github.com/user-attachments/assets/c7c2067c-7051-45d4-91e6-302431e20cf7)
+
 然后你会的得到一个类似这样的excel表格（我做了中断，如果你点击继续运行，它就会从缺失位置继续生成图片）
+
 ![image](https://github.com/user-attachments/assets/d5ae9a1e-84d3-4b03-b9bf-0f43f01654d7)
+
 </details>
 
 ---
+
 <details>
 <summary>
 <h2>关于词典操作</h2>
@@ -181,10 +194,7 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 你会得到（因为是硬连接，所以文件夹显示的文件大小不准，请查看磁盘的大小变化，512张1024*1024图片实际上只大了4.3个Mb）
 ![image](https://github.com/user-attachments/assets/be1ce814-8800-4c02-8101-3b167bff8185)
 
-
 </details>
-
-
 
 ---
 
