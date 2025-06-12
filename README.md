@@ -11,26 +11,32 @@
 
 <details>
 <summary>
-<h2>未来计划：</h2>
+<h2>未来计划</h2>
 </summary><br/>
 
 上传到ComfyUI Manager 未完成
 
-从QQ图片（或者其它地方来的图片）中批量提取元数据并存储到词典。（将采样器，调度器，正负面提示词，随机数？,图片本身记录到excel） 未完成（明天）。
+从QQ图片（或者其它地方来的图片）中批量提取元数据并存储到词典。（将采样器，调度器，正负面提示词，随机数？,图片本身记录到excel） 完成!
 
 完成了对图像分类（硬连接和符号连接）的工作流，下一步是对分类图像的进行数据提取操作。(转换为png 存储元数据* 元数据使用*)
 
 从图片得到词典（按顺序不重复写入到txt）完成
 
 从词典得到excel(按顺序读取txt行) 完成 
-</details>
 
+
+</details>
 ![更新_00001_](https://github.com/user-attachments/assets/dc2b5e3e-c2f7-477d-83f8-20b68ebae665)
 
 踩踩你的
 *(ningen mame:1.1), (ninjin nouka:1.1), (quasarcake:1.1), (ciloranko:1.15),konya_karasue,z3zz4,
 *1girl, no shoes, nahida (genshin impact), feet, pantyhose, white pantyhose, green eyes, solo, pointy ears, white hair, soles, side ponytail, long hair, toes, open mouth, looking at viewer, foot focus, hair ornament, dress, symbol-shaped pupils, sitting, legs, bangs, cross-shaped pupils, blush, hair between eyes, bare shoulders, multicolored hair, sleeveless, foreshortening, white dress, see-through, thighs, sleeveless dress, sweat, panties under pantyhose, underwear, gradient hair, :o, thighband pantyhose, green hair, blurry, wet, fang, full body, ass, knees up, leaf hair ornament
 
+<details>
+<summary>
+ <h1>AutoData-for-lora Workflow</h2>
+ </summary><br/>
+ 
 <details>
 <summary>
 <h2>快速开始(AutoData-for-lora工作流)（脑子不够用的话，太长不看的话）:</h2>
@@ -172,9 +178,10 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 
 ---
 
+
 <details>
 <summary>
-<h2>关于词典操作</h2>
+<h1>关于词典操作</h2>
 </summary><br/>
  
 让tagger写入到词典中，不重复，并去掉重复的逗号，去掉非法的换行符号。你可以右键点击播放声音节点，在菜单中选择执行节点。这样就就能只执行框中的节点了。
@@ -183,11 +190,13 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 ![image](https://github.com/user-attachments/assets/034d85e4-846d-4dfc-9939-b1fcb7d7d1e1)
 两者直接以切换节点连接。选择2的时候不执行上方的节点。
 ![image](https://github.com/user-attachments/assets/31a15adc-ae56-4870-89b6-ea920a916f65)
+</details>
+
+</details>
 <details>
 <summary>
 <h2>新关于图像分练（C站上的图片总是参差不齐，群友的图像总是乱七八糟，那么就用它罢）</h2>
 </summary><br/>
- 
 图像分练工作流，读取图像，并获取元数据，使用元数据检测节点判断是什么图像。
 并迁移在目标位置创建连接。（符号连接和硬连接）具体可以看我在工作流中的注释。
 ![image](https://github.com/user-attachments/assets/ac94c1f5-ae99-4db5-b2d2-d8334077fbcd)
