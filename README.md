@@ -24,10 +24,9 @@
 
 从词典得到excel(按顺序读取txt行) 完成 
 
-
 </details>
-![更新_00001_](https://github.com/user-attachments/assets/dc2b5e3e-c2f7-477d-83f8-20b68ebae665)
 
+![工作流_00001_](https://github.com/user-attachments/assets/5946a981-1f50-4fc1-a675-5226a71fd92b)
 踩踩你的
 *(ningen mame:1.1), (ninjin nouka:1.1), (quasarcake:1.1), (ciloranko:1.15),konya_karasue,z3zz4,
 *1girl, no shoes, nahida (genshin impact), feet, pantyhose, white pantyhose, green eyes, solo, pointy ears, white hair, soles, side ponytail, long hair, toes, open mouth, looking at viewer, foot focus, hair ornament, dress, symbol-shaped pupils, sitting, legs, bangs, cross-shaped pupils, blush, hair between eyes, bare shoulders, multicolored hair, sleeveless, foreshortening, white dress, see-through, thighs, sleeveless dress, sweat, panties under pantyhose, underwear, gradient hair, :o, thighband pantyhose, green hair, blurry, wet, fang, full body, ass, knees up, leaf hair ornament
@@ -195,14 +194,20 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 </details>
 <details>
 <summary>
-<h2>新关于图像分练（C站上的图片总是参差不齐，群友的图像总是乱七八糟，那么就用它罢）</h2>
+<h1>关于图像分练（C站上的图片总是参差不齐，群友的图像总是乱七八糟，那么就用它罢）</h1>
 </summary><br/>
+ 
 图像分练工作流，读取图像，并获取元数据，使用元数据检测节点判断是什么图像。
 并迁移在目标位置创建连接。（符号连接和硬连接）具体可以看我在工作流中的注释。
 ![image](https://github.com/user-attachments/assets/ac94c1f5-ae99-4db5-b2d2-d8334077fbcd)
 你会得到（因为是硬连接，所以文件夹显示的文件大小不准，请查看磁盘的大小变化，512张1024*1024图片实际上只大了4.3个Mb）
 ![image](https://github.com/user-attachments/assets/be1ce814-8800-4c02-8101-3b167bff8185)
-
+然后是对这些图片进行的处理
+ 
+从A1111图片元数据中提取提示词（将排序改为随机时，为抽卡）
+![image](https://github.com/user-attachments/assets/3726c7bf-8846-4a26-a61e-b0f797a08fe9)
+为没有基本元数据的图像进行提示词标注
+![image](https://github.com/user-attachments/assets/46ff1211-cbff-4167-8670-4001438ab5af)
 </details>
 
 ---
