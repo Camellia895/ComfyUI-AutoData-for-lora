@@ -1,8 +1,8 @@
 {
   "id": "f622a63f-8f45-4e80-8c60-9fde32b201b9",
   "revision": 0,
-  "last_node_id": 484,
-  "last_link_id": 4332,
+  "last_node_id": 489,
+  "last_link_id": 4391,
   "nodes": [
     {
       "id": 19,
@@ -16,7 +16,7 @@
         142
       ],
       "flags": {},
-      "order": 95,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -162,7 +162,7 @@
         122
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -424,7 +424,7 @@
         122
       ],
       "flags": {},
-      "order": 42,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -479,7 +479,7 @@
         102
       ],
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -504,7 +504,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        1111912822624583,
+        204520397995287,
         "randomize"
       ]
     },
@@ -668,7 +668,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        422338145030484,
+        184523950886881,
         "randomize",
         30,
         5.8,
@@ -689,7 +689,7 @@
         106
       ],
       "flags": {},
-      "order": 49,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1218,7 +1218,7 @@
         106
       ],
       "flags": {},
-      "order": 91,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1257,7 +1257,7 @@
         88
       ],
       "flags": {},
-      "order": 53,
+      "order": 52,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1293,7 +1293,7 @@
         88
       ],
       "flags": {},
-      "order": 39,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1527,7 +1527,7 @@
         "*__sfw不可替换角色tag组8w+.txt__",
         "Select the LoRA to add to the text",
         "Select the Wildcard to add to the text",
-        1030621354001987,
+        883533266322355,
         "randomize",
         false
       ]
@@ -1544,7 +1544,7 @@
         130
       ],
       "flags": {},
-      "order": 89,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -1613,7 +1613,7 @@
         90
       ],
       "flags": {},
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1830,6 +1830,7 @@
           ]
         }
       ],
+      "title": "Get_行",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -1925,6 +1926,7 @@
           ]
         }
       ],
+      "title": "Get_行",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -1958,6 +1960,7 @@
           ]
         }
       ],
+      "title": "Get_列",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -1977,7 +1980,7 @@
         58
       ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1990,6 +1993,7 @@
           ]
         }
       ],
+      "title": "Get_列",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -2022,6 +2026,7 @@
           ]
         }
       ],
+      "title": "Get_行",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -2532,6 +2537,7 @@
           ]
         }
       ],
+      "title": "Get_行",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -2731,7 +2737,7 @@
         158
       ],
       "flags": {},
-      "order": 90,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -3016,7 +3022,7 @@
         128
       ],
       "flags": {},
-      "order": 92,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -3078,7 +3084,7 @@
         102
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3103,7 +3109,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        615425193671529,
+        346005073421370,
         "randomize"
       ]
     },
@@ -3303,6 +3309,7 @@
           ]
         }
       ],
+      "title": "Get_持续行",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -3324,7 +3331,7 @@
         58
       ],
       "flags": {},
-      "order": 88,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -3364,7 +3371,7 @@
         122
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -3590,6 +3597,7 @@
           ]
         }
       ],
+      "title": "Get_组数量",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -3664,6 +3672,7 @@
           ]
         }
       ],
+      "title": "Get_开始行",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -3685,7 +3694,7 @@
         466
       ],
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3718,7 +3727,7 @@
         142
       ],
       "flags": {},
-      "order": 93,
+      "order": 92,
       "mode": 4,
       "inputs": [
         {
@@ -3784,7 +3793,7 @@
         120
       ],
       "flags": {},
-      "order": 47,
+      "order": 46,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -3895,7 +3904,7 @@
         88
       ],
       "flags": {},
-      "order": 55,
+      "order": 54,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3920,7 +3929,7 @@
         88
       ],
       "flags": {},
-      "order": 54,
+      "order": 53,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3991,7 +4000,7 @@
         142
       ],
       "flags": {},
-      "order": 94,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -4119,7 +4128,7 @@
         466
       ],
       "flags": {},
-      "order": 50,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4152,7 +4161,7 @@
         430
       ],
       "flags": {},
-      "order": 70,
+      "order": 69,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4253,7 +4262,7 @@
         60
       ],
       "flags": {},
-      "order": 64,
+      "order": 63,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4261,11 +4270,12 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            4244,
-            4262
+            4370,
+            4379
           ]
         }
       ],
+      "title": "Get_图片文件夹位置",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -4292,7 +4302,7 @@
           "label": "图像",
           "name": "images",
           "type": "IMAGE",
-          "link": 4246
+          "link": 4372
         }
       ],
       "outputs": [],
@@ -4562,7 +4572,7 @@
           "widget": {
             "name": "total"
           },
-          "link": 4245
+          "link": 4380
         },
         {
           "name": "initial_value2",
@@ -4585,7 +4595,7 @@
           "name": "index",
           "type": "INT",
           "links": [
-            4253
+            4371
           ]
         },
         {
@@ -4808,7 +4818,7 @@
           "widget": {
             "name": "input_string"
           },
-          "link": 4248
+          "link": 4374
         }
       ],
       "outputs": [
@@ -4882,7 +4892,7 @@
           "widget": {
             "name": "file_name"
           },
-          "link": 4250
+          "link": 4376
         }
       ],
       "outputs": [
@@ -4974,7 +4984,7 @@
         {
           "name": "text",
           "type": "STRING",
-          "link": 4247
+          "link": 4373
         }
       ],
       "outputs": [
@@ -5086,7 +5096,7 @@
         102
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -5251,7 +5261,7 @@
         60
       ],
       "flags": {},
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5263,6 +5273,7 @@
           ]
         }
       ],
+      "title": "Get_图片文件夹位置",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -5358,7 +5369,7 @@
         60
       ],
       "flags": {},
-      "order": 67,
+      "order": 66,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5370,6 +5381,7 @@
           ]
         }
       ],
+      "title": "Get_二级循环 随机种",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -5438,7 +5450,7 @@
         106
       ],
       "flags": {},
-      "order": 58,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -5490,7 +5502,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 4252
+          "link": 4378
         }
       ],
       "outputs": [
@@ -5532,7 +5544,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 4251
+          "link": 4377
         }
       ],
       "outputs": [
@@ -5572,7 +5584,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 4249
+          "link": 4375
         }
       ],
       "outputs": [
@@ -5606,7 +5618,7 @@
         430
       ],
       "flags": {},
-      "order": 69,
+      "order": 68,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5631,7 +5643,7 @@
         102
       ],
       "flags": {},
-      "order": 68,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -5685,7 +5697,7 @@
         190
       ],
       "flags": {},
-      "order": 60,
+      "order": 59,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5814,7 +5826,7 @@
         88
       ],
       "flags": {},
-      "order": 40,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5839,7 +5851,7 @@
         88
       ],
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5977,7 +5989,7 @@
         60
       ],
       "flags": {},
-      "order": 52,
+      "order": 51,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5990,6 +6002,7 @@
           ]
         }
       ],
+      "title": "Get_总合提示词",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -6009,7 +6022,7 @@
         122
       ],
       "flags": {},
-      "order": 96,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -6115,7 +6128,7 @@
         60
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6127,6 +6140,7 @@
           ]
         }
       ],
+      "title": "Get_图像输出",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -6223,7 +6237,7 @@
         60
       ],
       "flags": {},
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6238,6 +6252,7 @@
           ]
         }
       ],
+      "title": "Get_图片文件夹位置",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -6257,7 +6272,7 @@
         58
       ],
       "flags": {},
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6271,6 +6286,7 @@
           ]
         }
       ],
+      "title": "Get_提示词",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -6290,7 +6306,7 @@
         58
       ],
       "flags": {},
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6376,6 +6392,7 @@
           ]
         }
       ],
+      "title": "Get_图片文件夹位置",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -6407,6 +6424,7 @@
           ]
         }
       ],
+      "title": "Get_图片文件夹位置",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -6582,6 +6600,7 @@
           ]
         }
       ],
+      "title": "Get_图片文件夹位置",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -7538,7 +7557,7 @@
         58
       ],
       "flags": {},
-      "order": 65,
+      "order": 64,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -7546,11 +7565,12 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            4261,
-            4263
+            4381,
+            4384
           ]
         }
       ],
+      "title": "Get_图片文件夹位置",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -7570,7 +7590,7 @@
         88
       ],
       "flags": {},
-      "order": 66,
+      "order": 65,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -7579,7 +7599,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            4266
+            4382
           ]
         }
       ],
@@ -7615,7 +7635,7 @@
           "widget": {
             "name": "input_string"
           },
-          "link": 4255
+          "link": 4387
         }
       ],
       "outputs": [
@@ -7664,7 +7684,7 @@
           "label": "图像",
           "name": "images",
           "type": "IMAGE",
-          "link": 4260
+          "link": 4386
         }
       ],
       "outputs": [],
@@ -7694,7 +7714,7 @@
         {
           "name": "text",
           "type": "STRING",
-          "link": 4256
+          "link": 4388
         }
       ],
       "outputs": [
@@ -7736,7 +7756,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 4257
+          "link": 4389
         }
       ],
       "outputs": [
@@ -7778,7 +7798,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 4258
+          "link": 4390
         }
       ],
       "outputs": [
@@ -7818,7 +7838,7 @@
           "name": "anything",
           "shape": 7,
           "type": "*",
-          "link": 4259
+          "link": 4391
         }
       ],
       "outputs": [
@@ -7940,7 +7960,7 @@
           "widget": {
             "name": "total"
           },
-          "link": 4265
+          "link": 4383
         },
         {
           "name": "initial_value2",
@@ -7963,7 +7983,7 @@
           "name": "index",
           "type": "INT",
           "links": [
-            4254
+            4385
           ]
         },
         {
@@ -8118,6 +8138,7 @@
           ]
         }
       ],
+      "title": "Get_词典位置",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -8149,6 +8170,7 @@
           ]
         }
       ],
+      "title": "Get_词典名",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -8235,7 +8257,7 @@
         326
       ],
       "flags": {},
-      "order": 24,
+      "order": 77,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -8244,7 +8266,7 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            3464
+            4351
           ]
         },
         {
@@ -8266,39 +8288,6 @@
       ]
     },
     {
-      "id": 384,
-      "type": "SaveImage",
-      "pos": [
-        8710,
-        2680
-      ],
-      "size": [
-        270,
-        270
-      ],
-      "flags": {},
-      "order": 86,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "图像",
-          "name": "images",
-          "type": "IMAGE",
-          "link": 3464
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.34",
-        "Node name for S&R": "SaveImage",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "更新"
-      ]
-    },
-    {
       "id": 385,
       "type": "SetNode",
       "pos": [
@@ -8310,7 +8299,7 @@
         60
       ],
       "flags": {},
-      "order": 87,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -8392,7 +8381,7 @@
         466
       ],
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8463,7 +8452,7 @@
         60
       ],
       "flags": {},
-      "order": 75,
+      "order": 74,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8476,6 +8465,7 @@
           ]
         }
       ],
+      "title": "Get_空数据1 二级循环",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -8667,7 +8657,7 @@
         26
       ],
       "flags": {},
-      "order": 51,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -8785,7 +8775,7 @@
         170
       ],
       "flags": {},
-      "order": 48,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -8847,7 +8837,7 @@
         88
       ],
       "flags": {},
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -8872,7 +8862,7 @@
         88
       ],
       "flags": {},
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -8897,7 +8887,7 @@
         88
       ],
       "flags": {},
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -8922,7 +8912,7 @@
         88
       ],
       "flags": {},
-      "order": 73,
+      "order": 72,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -8947,7 +8937,7 @@
         88
       ],
       "flags": {},
-      "order": 76,
+      "order": 75,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -8972,7 +8962,7 @@
         88
       ],
       "flags": {},
-      "order": 43,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9030,7 +9020,7 @@
         354.000244140625
       ],
       "flags": {},
-      "order": 63,
+      "order": 62,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -9084,7 +9074,7 @@
         350
       ],
       "flags": {},
-      "order": 99,
+      "order": 98,
       "mode": 4,
       "inputs": [
         {
@@ -9124,7 +9114,7 @@
         82
       ],
       "flags": {},
-      "order": 72,
+      "order": 71,
       "mode": 4,
       "inputs": [
         {
@@ -9164,7 +9154,7 @@
         88
       ],
       "flags": {},
-      "order": 56,
+      "order": 55,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9235,7 +9225,7 @@
         60
       ],
       "flags": {},
-      "order": 61,
+      "order": 60,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9248,6 +9238,7 @@
           ]
         }
       ],
+      "title": "Get_提示词",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -9267,7 +9258,7 @@
         58
       ],
       "flags": {},
-      "order": 62,
+      "order": 61,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9280,6 +9271,7 @@
           ]
         }
       ],
+      "title": "Get_画师",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -9336,7 +9328,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 98,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -9389,7 +9381,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 97,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -9440,7 +9432,7 @@
         26
       ],
       "flags": {},
-      "order": 57,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -9471,7 +9463,7 @@
         60
       ],
       "flags": {},
-      "order": 59,
+      "order": 58,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9483,6 +9475,7 @@
           ]
         }
       ],
+      "title": "Get_条件合并",
       "properties": {
         "widget_ue_connectable": {}
       },
@@ -9639,346 +9632,6 @@
       "widgets_values": []
     },
     {
-      "id": 450,
-      "type": "GetMarkedImageByIndex_AutoData_V5_CN",
-      "pos": [
-        5360,
-        2380
-      ],
-      "size": [
-        314.5826110839844,
-        306
-      ],
-      "flags": {},
-      "order": 100,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "文件夹路径",
-          "name": "文件夹路径",
-          "type": "STRING",
-          "widget": {
-            "name": "文件夹路径"
-          },
-          "link": 4244
-        }
-      ],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": null
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "label": "元数据 (JSON)",
-          "name": "元数据 (JSON)",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": [
-            4245
-          ]
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V5_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        0,
-        "文件名 (A-Z, 0-9)",
-        "png,jpg,jpeg,webp",
-        "",
-        "",
-        true,
-        true
-      ]
-    },
-    {
-      "id": 451,
-      "type": "GetMarkedImageByIndex_AutoData_V5_CN",
-      "pos": [
-        6070,
-        2380
-      ],
-      "size": [
-        314.5826110839844,
-        306
-      ],
-      "flags": {},
-      "order": 137,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "文件夹路径",
-          "name": "文件夹路径",
-          "type": "STRING",
-          "widget": {
-            "name": "文件夹路径"
-          },
-          "link": 4262
-        },
-        {
-          "label": "序号",
-          "name": "序号",
-          "type": "INT",
-          "widget": {
-            "name": "序号"
-          },
-          "link": 4253
-        }
-      ],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": [
-            4246
-          ]
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": [
-            4247,
-            4248,
-            4249,
-            4250
-          ]
-        },
-        {
-          "label": "元数据 (JSON)",
-          "name": "元数据 (JSON)",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": [
-            4251
-          ]
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": [
-            4252
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V5_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        0,
-        "文件名 (A-Z, 0-9)",
-        "png,jpg,jpeg,webp",
-        "",
-        "",
-        true,
-        true
-      ]
-    },
-    {
-      "id": 452,
-      "type": "GetMarkedImageByIndex_AutoData_V5_CN",
-      "pos": [
-        6090,
-        3150
-      ],
-      "size": [
-        314.5826110839844,
-        306
-      ],
-      "flags": {},
-      "order": 138,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "文件夹路径",
-          "name": "文件夹路径",
-          "type": "STRING",
-          "widget": {
-            "name": "文件夹路径"
-          },
-          "link": 4261
-        },
-        {
-          "label": "序号",
-          "name": "序号",
-          "type": "INT",
-          "widget": {
-            "name": "序号"
-          },
-          "link": 4254
-        }
-      ],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": [
-            4260
-          ]
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": [
-            4255,
-            4256,
-            4257
-          ]
-        },
-        {
-          "label": "元数据 (JSON)",
-          "name": "元数据 (JSON)",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": [
-            4258
-          ]
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": [
-            4259
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V5_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        0,
-        "文件名 (A-Z, 0-9)",
-        "png,jpg,jpeg,webp",
-        "",
-        "",
-        true,
-        true
-      ]
-    },
-    {
-      "id": 453,
-      "type": "GetMarkedImageByIndex_AutoData_V5_CN",
-      "pos": [
-        5370,
-        3180
-      ],
-      "size": [
-        314.5826110839844,
-        306
-      ],
-      "flags": {},
-      "order": 101,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "文件夹路径",
-          "name": "文件夹路径",
-          "type": "STRING",
-          "widget": {
-            "name": "文件夹路径"
-          },
-          "link": 4263
-        },
-        {
-          "label": "搜索标记",
-          "name": "搜索标记",
-          "type": "STRING",
-          "widget": {
-            "name": "搜索标记"
-          },
-          "link": 4266
-        }
-      ],
-      "outputs": [
-        {
-          "label": "图像",
-          "name": "图像",
-          "type": "IMAGE",
-          "links": []
-        },
-        {
-          "label": "文件名",
-          "name": "文件名",
-          "type": "STRING",
-          "links": []
-        },
-        {
-          "label": "元数据 (JSON)",
-          "name": "元数据 (JSON)",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "label": "文件总数",
-          "name": "文件总数",
-          "type": "INT",
-          "links": [
-            4265
-          ]
-        },
-        {
-          "label": "状态信息",
-          "name": "状态信息",
-          "type": "STRING",
-          "links": []
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V5_CN",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "请填入文件夹路径",
-        0,
-        "文件名 (A-Z, 0-9)",
-        "png,jpg,jpeg,webp",
-        "",
-        "",
-        true,
-        true
-      ]
-    },
-    {
       "id": 454,
       "type": "Node Combiner (rgthree)",
       "pos": [
@@ -10124,7 +9777,7 @@
         100
       ],
       "flags": {},
-      "order": 71,
+      "order": 70,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -10149,7 +9802,7 @@
         4500
       ],
       "flags": {},
-      "order": 77,
+      "order": 76,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -10177,7 +9830,7 @@
         4060
       ],
       "flags": {},
-      "order": 74,
+      "order": 73,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -10266,7 +9919,7 @@
       ],
       "flags": {},
       "order": 169,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "dir": 3,
@@ -10326,7 +9979,7 @@
       ],
       "flags": {},
       "order": 193,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "dir": 3,
@@ -10345,7 +9998,7 @@
         {
           "dir": 3,
           "label": "获取节点",
-          "name": "获取节点",
+          "name": "Get_图片文件夹位置",
           "type": "*",
           "link": 4331
         },
@@ -10372,6 +10025,379 @@
       "properties": {
         "widget_ue_connectable": {}
       }
+    },
+    {
+      "id": 485,
+      "type": "SaveImageToLocal",
+      "pos": [
+        8710,
+        2710
+      ],
+      "size": [
+        210,
+        100
+      ],
+      "flags": {},
+      "order": 101,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 4351
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfyui-mixlab-nodes",
+        "ver": "b2bb1876def6330fccf1e03cc69d2166cae7bedb",
+        "widget_ue_connectable": {},
+        "Node name for S&R": "SaveImageToLocal"
+      },
+      "widgets_values": [
+        "D:\\ComfyUI\\工作流"
+      ]
+    },
+    {
+      "id": 486,
+      "type": "GetMarkedImageByIndex_AutoData_V5_CN",
+      "pos": [
+        6070,
+        2380
+      ],
+      "size": [
+        314.5826110839844,
+        306
+      ],
+      "flags": {},
+      "order": 137,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文件夹路径",
+          "name": "文件夹路径",
+          "type": "STRING",
+          "widget": {
+            "name": "文件夹路径"
+          },
+          "link": 4370
+        },
+        {
+          "label": "序号",
+          "name": "序号",
+          "type": "INT",
+          "widget": {
+            "name": "序号"
+          },
+          "link": 4371
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": [
+            4372
+          ]
+        },
+        {
+          "label": "文件名",
+          "name": "文件名",
+          "type": "STRING",
+          "links": [
+            4373,
+            4374,
+            4375,
+            4376
+          ]
+        },
+        {
+          "label": "元数据 (JSON)",
+          "name": "元数据 (JSON)",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "文件总数",
+          "name": "文件总数",
+          "type": "INT",
+          "links": [
+            4377
+          ]
+        },
+        {
+          "label": "状态信息",
+          "name": "状态信息",
+          "type": "STRING",
+          "links": [
+            4378
+          ]
+        }
+      ],
+      "properties": {
+        "widget_ue_connectable": {},
+        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V5_CN"
+      },
+      "widgets_values": [
+        "请填入文件夹路径",
+        0,
+        "文件名 (A-Z, 0-9)",
+        -1,
+        "png,jpg,jpeg,webp",
+        "",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 487,
+      "type": "GetMarkedImageByIndex_AutoData_V5_CN",
+      "pos": [
+        5360,
+        2380
+      ],
+      "size": [
+        314.5826110839844,
+        306
+      ],
+      "flags": {},
+      "order": 99,
+      "mode": 4,
+      "inputs": [
+        {
+          "label": "文件夹路径",
+          "name": "文件夹路径",
+          "type": "STRING",
+          "widget": {
+            "name": "文件夹路径"
+          },
+          "link": 4379
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "label": "文件名",
+          "name": "文件名",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "元数据 (JSON)",
+          "name": "元数据 (JSON)",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "文件总数",
+          "name": "文件总数",
+          "type": "INT",
+          "links": [
+            4380
+          ]
+        },
+        {
+          "label": "状态信息",
+          "name": "状态信息",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "widget_ue_connectable": {},
+        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V5_CN"
+      },
+      "widgets_values": [
+        "请填入文件夹路径",
+        0,
+        "文件名 (A-Z, 0-9)",
+        -1,
+        "png,jpg,jpeg,webp",
+        "",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 488,
+      "type": "GetMarkedImageByIndex_AutoData_V5_CN",
+      "pos": [
+        5370,
+        3180
+      ],
+      "size": [
+        314.5826110839844,
+        306
+      ],
+      "flags": {},
+      "order": 100,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "文件夹路径",
+          "name": "文件夹路径",
+          "type": "STRING",
+          "widget": {
+            "name": "文件夹路径"
+          },
+          "link": 4381
+        },
+        {
+          "label": "搜索标记",
+          "name": "搜索标记",
+          "type": "STRING",
+          "widget": {
+            "name": "搜索标记"
+          },
+          "link": 4382
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "label": "文件名",
+          "name": "文件名",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "元数据 (JSON)",
+          "name": "元数据 (JSON)",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "文件总数",
+          "name": "文件总数",
+          "type": "INT",
+          "links": [
+            4383
+          ]
+        },
+        {
+          "label": "状态信息",
+          "name": "状态信息",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "widget_ue_connectable": {},
+        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V5_CN"
+      },
+      "widgets_values": [
+        "请填入文件夹路径",
+        0,
+        "文件名 (A-Z, 0-9)",
+        -1,
+        "png,jpg,jpeg,webp",
+        "",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 489,
+      "type": "GetMarkedImageByIndex_AutoData_V5_CN",
+      "pos": [
+        6090,
+        3150
+      ],
+      "size": [
+        314.5826110839844,
+        306
+      ],
+      "flags": {},
+      "order": 138,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "文件夹路径",
+          "name": "文件夹路径",
+          "type": "STRING",
+          "widget": {
+            "name": "文件夹路径"
+          },
+          "link": 4384
+        },
+        {
+          "label": "序号",
+          "name": "序号",
+          "type": "INT",
+          "widget": {
+            "name": "序号"
+          },
+          "link": 4385
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": [
+            4386
+          ]
+        },
+        {
+          "label": "文件名",
+          "name": "文件名",
+          "type": "STRING",
+          "links": [
+            4387,
+            4388,
+            4389
+          ]
+        },
+        {
+          "label": "元数据 (JSON)",
+          "name": "元数据 (JSON)",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "文件总数",
+          "name": "文件总数",
+          "type": "INT",
+          "links": [
+            4390
+          ]
+        },
+        {
+          "label": "状态信息",
+          "name": "状态信息",
+          "type": "STRING",
+          "links": [
+            4391
+          ]
+        }
+      ],
+      "properties": {
+        "widget_ue_connectable": {},
+        "Node name for S&R": "GetMarkedImageByIndex_AutoData_V5_CN"
+      },
+      "widgets_values": [
+        "请填入文件夹路径",
+        0,
+        "文件名 (A-Z, 0-9)",
+        -1,
+        "png,jpg,jpeg,webp",
+        "",
+        "",
+        true
+      ]
     }
   ],
   "links": [
@@ -11568,14 +11594,6 @@
       "*"
     ],
     [
-      3464,
-      381,
-      0,
-      384,
-      0,
-      "IMAGE"
-    ],
-    [
       3503,
       26,
       2,
@@ -11864,182 +11882,6 @@
       "*"
     ],
     [
-      4244,
-      211,
-      0,
-      450,
-      0,
-      "STRING"
-    ],
-    [
-      4245,
-      450,
-      3,
-      228,
-      1,
-      "INT"
-    ],
-    [
-      4246,
-      451,
-      0,
-      212,
-      0,
-      "IMAGE"
-    ],
-    [
-      4247,
-      451,
-      1,
-      240,
-      0,
-      "STRING"
-    ],
-    [
-      4248,
-      451,
-      1,
-      232,
-      0,
-      "STRING"
-    ],
-    [
-      4249,
-      451,
-      1,
-      281,
-      0,
-      "*"
-    ],
-    [
-      4250,
-      451,
-      1,
-      235,
-      3,
-      "STRING"
-    ],
-    [
-      4251,
-      451,
-      3,
-      280,
-      0,
-      "*"
-    ],
-    [
-      4252,
-      451,
-      4,
-      279,
-      0,
-      "*"
-    ],
-    [
-      4253,
-      228,
-      1,
-      451,
-      1,
-      "INT"
-    ],
-    [
-      4254,
-      370,
-      1,
-      452,
-      1,
-      "INT"
-    ],
-    [
-      4255,
-      452,
-      1,
-      361,
-      0,
-      "STRING"
-    ],
-    [
-      4256,
-      452,
-      1,
-      363,
-      0,
-      "STRING"
-    ],
-    [
-      4257,
-      452,
-      1,
-      364,
-      0,
-      "*"
-    ],
-    [
-      4258,
-      452,
-      3,
-      365,
-      0,
-      "*"
-    ],
-    [
-      4259,
-      452,
-      4,
-      366,
-      0,
-      "*"
-    ],
-    [
-      4260,
-      452,
-      0,
-      362,
-      0,
-      "IMAGE"
-    ],
-    [
-      4261,
-      358,
-      0,
-      452,
-      0,
-      "STRING"
-    ],
-    [
-      4262,
-      211,
-      0,
-      451,
-      0,
-      "STRING"
-    ],
-    [
-      4263,
-      358,
-      0,
-      453,
-      0,
-      "STRING"
-    ],
-    [
-      4265,
-      453,
-      3,
-      370,
-      1,
-      "INT"
-    ],
-    [
-      4266,
-      360,
-      0,
-      453,
-      1,
-      "STRING"
-    ],
-    [
       4267,
       184,
       0,
@@ -12221,6 +12063,190 @@
       0,
       229,
       2,
+      "*"
+    ],
+    [
+      4351,
+      381,
+      0,
+      485,
+      0,
+      "IMAGE"
+    ],
+    [
+      4370,
+      211,
+      0,
+      486,
+      0,
+      "STRING"
+    ],
+    [
+      4371,
+      228,
+      1,
+      486,
+      1,
+      "INT"
+    ],
+    [
+      4372,
+      486,
+      0,
+      212,
+      0,
+      "IMAGE"
+    ],
+    [
+      4373,
+      486,
+      1,
+      240,
+      0,
+      "STRING"
+    ],
+    [
+      4374,
+      486,
+      1,
+      232,
+      0,
+      "STRING"
+    ],
+    [
+      4375,
+      486,
+      1,
+      281,
+      0,
+      "*"
+    ],
+    [
+      4376,
+      486,
+      1,
+      235,
+      3,
+      "STRING"
+    ],
+    [
+      4377,
+      486,
+      3,
+      280,
+      0,
+      "*"
+    ],
+    [
+      4378,
+      486,
+      4,
+      279,
+      0,
+      "*"
+    ],
+    [
+      4379,
+      211,
+      0,
+      487,
+      0,
+      "STRING"
+    ],
+    [
+      4380,
+      487,
+      3,
+      228,
+      1,
+      "INT"
+    ],
+    [
+      4381,
+      358,
+      0,
+      488,
+      0,
+      "STRING"
+    ],
+    [
+      4382,
+      360,
+      0,
+      488,
+      1,
+      "STRING"
+    ],
+    [
+      4383,
+      488,
+      3,
+      370,
+      1,
+      "INT"
+    ],
+    [
+      4384,
+      358,
+      0,
+      489,
+      0,
+      "STRING"
+    ],
+    [
+      4385,
+      370,
+      1,
+      489,
+      1,
+      "INT"
+    ],
+    [
+      4386,
+      489,
+      0,
+      362,
+      0,
+      "IMAGE"
+    ],
+    [
+      4387,
+      489,
+      1,
+      361,
+      0,
+      "STRING"
+    ],
+    [
+      4388,
+      489,
+      1,
+      363,
+      0,
+      "STRING"
+    ],
+    [
+      4389,
+      489,
+      1,
+      364,
+      0,
+      "*"
+    ],
+    [
+      4390,
+      489,
+      3,
+      365,
+      0,
+      "*"
+    ],
+    [
+      4391,
+      489,
+      4,
+      366,
+      0,
       "*"
     ]
   ],
@@ -12596,24 +12622,24 @@
       }
     ],
     "links_added_by_ue": [
-      4302,
-      4303,
-      4304,
-      4305,
-      4306,
-      4307,
-      4308,
-      4309,
-      4310,
-      4311,
-      4312,
-      4313,
-      4314,
-      4315,
-      4316,
-      4317,
-      4318,
-      4319
+      4352,
+      4353,
+      4354,
+      4355,
+      4356,
+      4357,
+      4358,
+      4359,
+      4360,
+      4361,
+      4362,
+      4363,
+      4364,
+      4365,
+      4366,
+      4367,
+      4368,
+      4369
     ],
     "frontendVersion": "1.18.10",
     "VHS_latentpreview": false,
