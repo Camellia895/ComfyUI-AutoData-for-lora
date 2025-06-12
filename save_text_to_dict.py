@@ -1,8 +1,48 @@
 import os
 import re
+import sys
+import time
+import locale as sys_locale # 使用别名，避免与 ComfyUI 内部可能的 'locale' 模块冲突
 
-# 定义节点类别，我将它放在 "EasyUse/文本操作" 类别下
-CATEGORY = "自动数据"
+# --- 语言字符串设置 ---
+# 默认使用英文
+NODE_DISPLAY_NAME_TEXT = "Save Text to Dictionary [AutoData]"
+CATEGORY_TEXT = "AutoData/Text Operations" # 建议更通用的英文分类
+
+RETURN_PROCESSED_TEXT_NAME = "Processed Text"
+RETURN_STATUS_MESSAGE_NAME = "Operation Status"
+
+MSG_EMPTY_INPUT = "Input text is empty or became empty after processing, nothing written."
+MSG_SUCCESS_WRITE = "Successfully written '{processed_text}' to '{full_path}'"
+MSG_ALREADY_EXISTS = "'{processed_text}' already exists in dictionary, not rewritten."
+MSG_ERROR_WRITE_FILE = "Error writing file: {error}"
+MSG_CONSOLE_ERROR_SAVE = "Error saving text: {error}" # 内部控制台消息，保持英文或一致
+
+# 检测系统语言并设置中文（或回退到英文）
+current_lang = sys_locale.getdefaultlocale()[0] 
+
+if current_lang and current_lang.startswith("zh"):
+    NODE_DISPLAY_NAME_TEXT = "保存文本到词典[自动数据]"
+    CATEGORY_TEXT = "自动数据" 
+
+    RETURN_PROCESSED_TEXT_NAME = "处理后文本"
+    RETURN_STATUS_MESSAGE_NAME = "操作状态"
+
+    MSG_EMPTY_INPUT = "输入文本为空或处理后为空，未写入任何内容。"
+    MSG_SUCCESS_WRITE = "成功将 '{processed_text}' 写入到 '{full_path}'"
+    MSG_ALREADY_EXISTS = "'{processed_text}' 已存在于词典中，未重复写入。"
+    MSG_ERROR_WRITE_FILE = "写入文件时发生错误: {error}"
+    MSG_CONSOLE_ERROR_SAVE = "Error saving text: {error}" # 保持英文或根据需求汉化
+
+
+# --- 语言字符串设置结束 ---
+
+# 尝试导入ComfyUI的进度条工具，如果不在ComfyUI环境中则跳过
+try:
+    import comfy.utils
+    _comfy_available = True
+except ImportError:
+    _comfy_available = False
 
 class SaveTextToDictionaryAuto:
     """
@@ -19,24 +59,21 @@ class SaveTextToDictionaryAuto:
     def INPUT_TYPES(s):
         return {
             "required": {
-                # 输入端口的内部名称（Python变量名）保持英文，这是ComfyUI的常见做法
-                # 但节点名称和输出名称可以完全自定义为中文
+                # 输入端口的内部名称（Python变量名）保持英文
                 "text_to_save": ("STRING", {"multiline": True, "default": ""}), 
                 "folder_path": ("STRING", {"default": os.path.join(os.getcwd(), "output", "wildcards")}),
                 "file_name": ("STRING", {"default": "my_dictionary"}),
             },
-            # 如果需要，可以添加一个可选的输出端口来显示操作结果或处理后的文本
-            # "optional": {
-            #     "output_message": ("STRING", {"forceInput": False, "default": ""}),
-            # }
         }
 
     # 返回类型，这里输出处理后的文本和操作消息（可选）
     RETURN_TYPES = ("STRING", "STRING") 
-    # 定义输出端口的中文名称
-    RETURN_NAMES = ("处理后文本", "操作状态") 
+    # 定义输出端口的名称，使用变量
+    RETURN_NAMES = (RETURN_PROCESSED_TEXT_NAME, RETURN_STATUS_MESSAGE_NAME) 
 
     FUNCTION = "save_text" # 节点执行的函数名
+    CATEGORY = CATEGORY_TEXT # 节点在ComfyUI UI中的分类
+    OUTPUT_NODE = False
 
     def save_text(self, text_to_save, folder_path, file_name):
         """
@@ -60,7 +97,8 @@ class SaveTextToDictionaryAuto:
         
         # 如果处理后的文本为空，则不进行写入操作
         if not processed_text:
-            return ("", "输入文本为空或处理后为空，未写入任何内容。")
+            # 使用语言变量
+            return ("", MSG_EMPTY_INPUT)
 
         # 2. 构建文件路径
         # 确保文件名为有效的文件系统名，移除可能引起问题的字符
@@ -85,16 +123,19 @@ class SaveTextToDictionaryAuto:
 
             # 检查是否重复
             if processed_text in existing_lines:
-                status_message = f"'{processed_text}' 已存在于词典中，未重复写入。"
+                # 使用语言变量，并格式化
+                status_message = MSG_ALREADY_EXISTS.format(processed_text=processed_text)
             else:
                 # 以追加模式打开文件并写入新行
                 with open(full_path, 'a', encoding='utf-8') as f:
                     f.write(processed_text + '\n')
-                status_message = f"成功将 '{processed_text}' 写入到 '{full_path}'"
+                # 使用语言变量，并格式化
+                status_message = MSG_SUCCESS_WRITE.format(processed_text=processed_text, full_path=full_path)
 
         except Exception as e:
-            status_message = f"写入文件时发生错误: {e}"
-            print(f"Error saving text: {e}") # 打印到 ComfyUI 控制台
+            # 使用语言变量，并格式化
+            status_message = MSG_ERROR_WRITE_FILE.format(error=e)
+            print(MSG_CONSOLE_ERROR_SAVE.format(error=e)) # 打印到 ComfyUI 控制台
 
         # 返回处理后的文本和操作状态消息
         return (processed_text, status_message)
@@ -104,7 +145,7 @@ NODE_CLASS_MAPPINGS = {
     "SaveTextToDictionaryAuto": SaveTextToDictionaryAuto
 }
 
-# 节点在 ComfyUI UI 中显示的名称
+# 节点在 ComfyUI UI 中显示的名称，使用变量
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "SaveTextToDictionaryAuto": "保存文本到词典[自动数据]"
+    "SaveTextToDictionaryAuto": NODE_DISPLAY_NAME_TEXT
 }

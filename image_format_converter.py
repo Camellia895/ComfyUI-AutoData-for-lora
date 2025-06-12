@@ -9,8 +9,8 @@ class 智能格式转换为PNG_V2:
     如果输入文件已经是PNG，则智能跳过所有操作。
     """
     
-    节点名称 = "智能格式转换为PNG V2"
-    CATEGORY = "自动数据/file_utils"
+    节点名称 = "智能格式转换为PNG[自动数据]"
+    CATEGORY = "自动数据"
 
     @classmethod
     def INPUT_TYPES(cls):

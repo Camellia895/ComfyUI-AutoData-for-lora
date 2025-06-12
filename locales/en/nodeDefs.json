@@ -1,0 +1,52 @@
+{
+  "GetMarkedImageByIndex_AutoData_V2_CN": {
+    "display_name": "Load Marked Image by Index [AutoData]",
+    "description": "Filters files in a folder based on markers, sorts them, and loads an image by a specific index.",
+    "inputs": {
+      "文件夹路径": {
+        "name": "Folder Path",
+        "tooltip": "The absolute path to the folder containing image files."
+      },
+      "序号": {
+        "name": "Index",
+        "tooltip": "The index of the image to load from the filtered list (0-based)."
+      },
+      "排序方式": {
+        "name": "Sort By",
+        "tooltip": "The criteria for sorting the file list."
+      },
+      "文件扩展名": {
+        "name": "File Extensions",
+        "tooltip": "Valid file extensions, comma-separated (e.g., png,jpg,webp)."
+      },
+      "搜索标记": {
+        "name": "Search Marker",
+        "tooltip": "Filename must contain this text. Leave empty to ignore."
+      },
+      "排除标记": {
+        "name": "Exclude Marker",
+        "tooltip": "Filename must not contain this text. Leave empty to ignore."
+      },
+      "从名称中移除搜索标记": {
+        "name": "Remove Search Marker from Name",
+        "tooltip": "If enabled, removes the search marker from the output filename.",
+        "label_on": "Yes (Remove from returned filename)",
+        "label_off": "No (Keep marker in filename)"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "IMAGE"
+      },
+      "1": {
+        "name": "FILENAME"
+      },
+      "2": {
+        "name": "FILE_COUNT"
+      },
+      "3": {
+        "name": "STATUS_MESSAGE"
+      }
+    }
+  }
+}

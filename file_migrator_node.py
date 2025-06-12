@@ -9,7 +9,7 @@ class MigrateAndLinkFile:
     - 硬链接 (Hard Link): 像文件的第二个名字，必须在同一个磁盘内，可以显示预览图。
     """
     # 节点的显示名称（中文）
-    NODE_DISPLAY_NAME = "文件迁移并创建链接"
+    NODE_DISPLAY_NAME = "文件迁移并创建链接[自动数据]"
 
     @classmethod
     def INPUT_TYPES(s):
@@ -37,7 +37,7 @@ class MigrateAndLinkFile:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("日志状态",)
     FUNCTION = "migrate_and_create_link"
-    CATEGORY = "文件操作"
+    CATEGORY = "自动数据"
 
     def _get_drive(self, path):
         """辅助函数：获取路径所在的磁盘驱动器号"""
