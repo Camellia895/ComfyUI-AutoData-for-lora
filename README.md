@@ -118,7 +118,7 @@
 </details>
 <details>
 <summary>
-<h2>节点详情</h2>
+<h2>节点详情（还有至少七个节点，等待更新）</h2>
  </summary><br/>
  
 <details>
@@ -190,8 +190,8 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 
 </details>
 
----
 
+---
 
 <details>
 <summary>
@@ -226,8 +226,6 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 你会得到（因为是硬连接，所以文件夹显示的文件大小不准，请查看磁盘的大小变化，512张1024*1024图片实际上只大了4.3个Mb）
 
 ![image](https://github.com/user-attachments/assets/be1ce814-8800-4c02-8101-3b167bff8185)
-
-然后是对这些图片进行的处理
  
 从A1111图片元数据中提取提示词（将排序改为随机时，为抽卡）
 
@@ -241,10 +239,11 @@ tagger来自词典或者excel，如果excel中有了的话，就用excel的，�
 
 ---
 
-## 鸣谢  感谢gemini 孜孜不倦的教学。我几乎烧掉了她大约四分之一的寿命了。
+## 鸣谢  感谢gemini 孜孜不倦的教学。她已经经历了好几次死亡了。
 
+---
 
 ## 📝 本项目采用 [MIT License](https://opensource.org/licenses/MIT) 许可证。
 
 ---
-## 我发现了一个很严重的问题，那就是“我不会真的写代码( ☉д⊙)”，大多代码是我来排错，ai来写的。但问题务必提出来，我会和ai一起解决它的。
+
